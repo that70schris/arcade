@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "Chris Bailey",
+    "email": "chris@bailey.codes",
+    "url": "https://bailey.codes"
+  },
+  "publisher": "that70schris",
+  "name": "arcade",
+  "displayName": "Arcade",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arcade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arcade.json"
+      }
+    ]
+  }
+}

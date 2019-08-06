@@ -1,0 +1,136 @@
+{
+  "colors": {
+    "activityBarBadge.background": "#007acc",
+    "editor.background": "#222",
+    "editor.foreground": "#eee",
+    "editor.lineHighlightBackground": "#333",
+    "editor.selectionBackground": "#555",
+    "editorCursor.foreground": "#fff",
+    "editorIndentGuide.background": "#444",
+    "editorMarkerNavigationWarning.background": "#eee",
+    "editorOverviewRuler.warningForeground": "#eee",
+    "editorWarning.foreground": "#ccc",
+    "list.warningForeground": "#ef7",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#666"
+  },
+  "name": "Arcade",
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#777"
+      }
+    },
+    {
+      "scope": "meta.function",
+      "settings": {
+        "foreground": "#9ef"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#a8f"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#37c"
+      }
+    },
+    {
+      "scope": "meta.type",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ec7"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#7e7"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#7be"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier",
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#a9f"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end",
+        "punctuation.definition.string.template.begin",
+        "punctuation.definition.string.template.end",
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#999"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key",
+        "support.type.property-name",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.xml"
+      ],
+      "settings": {
+        "foreground": "#b97"
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.important",
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#eee"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css",
+        "entity.name.tag.css"
+      ],
+      "settings": {
+        "foreground": "#ec7"
+      }
+    },
+    {
+      "scope": [
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#9ef"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.anchor.regexp",
+        "keyword.operator.or.regexp",
+        "constant.character.escape.regexp",
+        "constant.character.control.regexp"
+      ],
+      "settings": {
+        "foreground": "#ccc"
+      }
+    }
+  ],
+  "type": "dark"
+}
