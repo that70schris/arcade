@@ -11,8 +11,8 @@
   "publisher": "that70schris",
   "name": "arcade",
   "displayName": "Arcade",
-  "description": "Somewhere in between neon and pastel",
-  "version": "0.0.1",
+  "description": "Somewhere between neon and pastel",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.36.0"
   },
