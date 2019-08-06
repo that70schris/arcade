@@ -1,4 +1,5 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "colors": {
     "activityBarBadge.background": "#007acc",
     "editor.background": "#222",
@@ -60,10 +61,7 @@
       }
     },
     {
-      "scope": [
-        "storage.modifier",
-        "keyword.operator.new"
-      ],
+      "scope": ["storage.modifier", "keyword.operator.new"],
       "settings": {
         "foreground": "#a9f"
       }
@@ -94,10 +92,7 @@
       }
     },
     {
-      "scope": [
-        "keyword.other.important",
-        "string.regexp"
-      ],
+      "scope": ["keyword.other.important", "string.regexp"],
       "settings": {
         "foreground": "#eee"
       }
@@ -113,9 +108,7 @@
       }
     },
     {
-      "scope": [
-        "support.constant.property-value.css"
-      ],
+      "scope": ["support.constant.property-value.css"],
       "settings": {
         "foreground": "#9ef"
       }

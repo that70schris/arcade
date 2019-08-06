@@ -4,6 +4,10 @@
     "email": "chris@bailey.codes",
     "url": "https://bailey.codes"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/that70schris/arcade"
+  },
   "publisher": "that70schris",
   "name": "arcade",
   "displayName": "Arcade",
