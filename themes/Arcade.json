@@ -104,7 +104,8 @@
         "meta.object-literal.key",
         "support.type.property-name",
         "entity.other.attribute-name.html",
-        "entity.other.attribute-name.xml"
+        "entity.other.attribute-name.xml",
+        "entity.name.tag.yaml"
       ],
       "settings": {
         "foreground": "#b97"
