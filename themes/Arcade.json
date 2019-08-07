@@ -87,7 +87,6 @@
     },
     {
       "scope": [
-        "keyword.operator.or.regexp",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
         "punctuation.definition.string.template.begin",
