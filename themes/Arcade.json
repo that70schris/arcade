@@ -17,7 +17,9 @@
   "name": "Arcade",
   "tokenColors": [
     {
-      "scope": "comment",
+      "scope": [
+        "comment"
+      ],
       "settings": {
         "foreground": "#777"
       }
@@ -34,34 +36,42 @@
       }
     },
     {
-      "scope": "keyword",
+      "scope": [
+        "keyword"
+      ],
       "settings": {
         "foreground": "#a8f"
       }
     },
     {
       "scope": [
-        "constant",
-        "meta.tag"
+        "constant"
       ],
       "settings": {
         "foreground": "#37c"
       }
     },
     {
-      "scope": "meta.type",
+      "scope": [
+        "meta.type"
+      ],
       "settings": {
         "foreground": "#ec7"
       }
     },
     {
-      "scope": "string",
+      "scope": [
+        "string"
+      ],
       "settings": {
         "foreground": "#7e7"
       }
     },
     {
-      "scope": "variable",
+      "scope": [
+        "variable",
+        "meta.tag"
+      ],
       "settings": {
         "foreground": "#7be"
       }
