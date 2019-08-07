@@ -1,7 +1,6 @@
 {
-  "$schema": "vscode://schemas/color-theme",
   "colors": {
-    "activityBarBadge.background": "#007acc",
+    "activityBarBadge.background": "#08c",
     "editor.background": "#222",
     "editor.foreground": "#eee",
     "editor.lineHighlightBackground": "#333",
@@ -24,7 +23,12 @@
       }
     },
     {
-      "scope": "meta.function",
+      "scope": [
+        "meta.function",
+        "support.function",
+        "meta.function-call",
+        "entity.name.function"
+      ],
       "settings": {
         "foreground": "#9ef"
       }
@@ -36,7 +40,10 @@
       }
     },
     {
-      "scope": "constant",
+      "scope": [
+        "constant",
+        "meta.tag"
+      ],
       "settings": {
         "foreground": "#37c"
       }
@@ -44,7 +51,6 @@
     {
       "scope": "meta.type",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#ec7"
       }
     },
@@ -61,13 +67,17 @@
       }
     },
     {
-      "scope": ["storage.modifier", "keyword.operator.new"],
+      "scope": [
+        "storage.modifier",
+        "keyword.operator.new"
+      ],
       "settings": {
         "foreground": "#a9f"
       }
     },
     {
       "scope": [
+        "keyword.operator.or.regexp",
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
         "punctuation.definition.string.template.begin",
@@ -92,7 +102,10 @@
       }
     },
     {
-      "scope": ["keyword.other.important", "string.regexp"],
+      "scope": [
+        "keyword.other.important",
+        "string.regexp"
+      ],
       "settings": {
         "foreground": "#eee"
       }
@@ -108,7 +121,9 @@
       }
     },
     {
-      "scope": ["support.constant.property-value.css"],
+      "scope": [
+        "support.constant.property-value.css"
+      ],
       "settings": {
         "foreground": "#9ef"
       }
