@@ -18,18 +18,10 @@
   "tokenColors": [
     {
       "scope": [
-        "comment"
-      ],
-      "settings": {
-        "foreground": "#777"
-      }
-    },
-    {
-      "scope": [
+        "entity.name.function",
         "meta.function",
-        "support.function",
         "meta.function-call",
-        "entity.name.function"
+        "support.function"
       ],
       "settings": {
         "foreground": "#9ef"
@@ -37,49 +29,8 @@
     },
     {
       "scope": [
-        "keyword"
-      ],
-      "settings": {
-        "foreground": "#a8f"
-      }
-    },
-    {
-      "scope": [
-        "constant"
-      ],
-      "settings": {
-        "foreground": "#37c"
-      }
-    },
-    {
-      "scope": [
-        "meta.type"
-      ],
-      "settings": {
-        "foreground": "#ec7"
-      }
-    },
-    {
-      "scope": [
-        "string"
-      ],
-      "settings": {
-        "foreground": "#7e7"
-      }
-    },
-    {
-      "scope": [
-        "variable",
-        "meta.tag"
-      ],
-      "settings": {
-        "foreground": "#7be"
-      }
-    },
-    {
-      "scope": [
-        "storage.modifier",
-        "keyword.operator.new"
+        "keyword",
+        "storage"
       ],
       "settings": {
         "foreground": "#a9f"
@@ -87,44 +38,21 @@
     },
     {
       "scope": [
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end",
-        "punctuation.definition.string.template.begin",
-        "punctuation.definition.string.template.end",
-        "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json",
-        "punctuation.terminator"
+        "constant",
+        "variable.language.this"
       ],
       "settings": {
-        "foreground": "#999"
+        "foreground": "#37c"
       }
     },
     {
       "scope": [
-        "meta.object-literal.key",
-        "support.type.property-name",
-        "entity.other.attribute-name.html",
-        "entity.other.attribute-name.xml",
-        "entity.name.tag.yam"
-      ],
-      "settings": {
-        "foreground": "#b97"
-      }
-    },
-    {
-      "scope": [
-        "keyword.other.important",
-        "string.regexp"
-      ],
-      "settings": {
-        "foreground": "#eee"
-      }
-    },
-    {
-      "scope": [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.id.css",
-        "entity.name.tag.css"
+        "entity.name",
+        "entity.other.inherited-class",
+        "meta.type",
+        "support.class",
+        "support.type",
+        "source.css entity.other.attribute-name"
       ],
       "settings": {
         "foreground": "#ec7"
@@ -132,18 +60,88 @@
     },
     {
       "scope": [
-        "support.constant.property-value.css"
+        "string",
+        "meta.attribute-selector"
       ],
       "settings": {
-        "foreground": "#9ef"
+        "foreground": "#7e7"
       }
     },
     {
       "scope": [
-        "keyword.control.anchor.regexp",
-        "keyword.operator.or.regexp",
-        "constant.character.escape.regexp",
-        "constant.character.control.regexp"
+        "entity.name.tag.reference",
+        "meta.attribute.unrecognized.*ngIf entity.other.attribute-name",
+        "meta.attribute.unrecognized.*ngFor entity.other.attribute-name",
+        "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name",
+        "meta.tag",
+        "support.variable",
+        "variable"
+      ],
+      "settings": {
+        "foreground": "#7be"
+      }
+    },
+    {
+      "scope": [
+        "comment",
+        "comment punctuation"
+      ],
+      "settings": {
+        "foreground": "#777"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control",
+        "keyword.other.unit",
+        "punctuation.definition.string",
+        "punctuation.definition.tag",
+        "punctuation.definition.type",
+        "punctuation.support",
+        "punctuation.terminator",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#999"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.conditional",
+        "keyword.control.flow",
+        "keyword.control.switch",
+        "keyword.control.trycatch",
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#d9f"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.object-literal.key",
+        "support.type.property-name",
+        "source.yaml entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#b97"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator",
+        "keyword.other",
+        "meta.brace",
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#eee"
+      }
+    },
+    {
+      "scope": [
+        "constant.character"
       ],
       "settings": {
         "foreground": "#ccc"
