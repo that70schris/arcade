@@ -1,6 +1,6 @@
 {
   "colors": {
-    "activityBarBadge.background": "#7be",
+    "activityBarBadge.background": "#37c",
     "editor.background": "#222",
     "editor.foreground": "#eee",
     "editor.lineHighlightBackground": "#111",
@@ -20,6 +20,7 @@
     {
       "scope": [
         "entity.name.function",
+        "keyword.other.special-method",
         "meta.function",
         "meta.function-call",
         "support.function"
@@ -71,6 +72,7 @@
     {
       "scope": [
         "entity.name.tag.reference",
+        "entity.name.type.anchor",
         "meta.attribute.unrecognized entity.other.attribute-name",
         "meta.tag",
         "support.variable",
@@ -83,7 +85,7 @@
     {
       "scope": [
         "comment",
-        "comment punctuation",
+        "keyword",
         "punctuation.definition.tag"
       ],
       "settings": {
@@ -93,9 +95,11 @@
     {
       "scope": [
         "constant.character",
+        "constant.other.placeholder",
         "keyword.control",
         "keyword.other.unit",
         "punctuation.definition.string",
+        "punctuation.definition.template-expression",
         "punctuation.definition.type",
         "punctuation.support",
         "punctuation.terminator",
@@ -107,6 +111,7 @@
     },
     {
       "scope": [
+        "constant.language.merge.yaml",
         "keyword.control.conditional",
         "keyword.control.flow",
         "keyword.control.switch",
@@ -114,7 +119,8 @@
         "keyword.operator.new",
         "meta.attribute.unrecognized.*ngIf entity.other.attribute-name",
         "meta.attribute.unrecognized.*ngFor entity.other.attribute-name",
-        "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name"
+        "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name",
+        "punctuation.definition.anchor"
       ],
       "settings": {
         "foreground": "#f9f"
@@ -136,6 +142,7 @@
         "keyword.operator",
         "keyword.other",
         "meta.brace",
+        "meta.scope.function-call",
         "punctuation.separator"
       ],
       "settings": {
