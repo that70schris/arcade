@@ -1,6 +1,6 @@
 {
   "colors": {
-    "activityBarBadge.background": "#08c",
+    "activityBarBadge.background": "#7be",
     "editor.background": "#222",
     "editor.foreground": "#eee",
     "editor.lineHighlightBackground": "#333",
@@ -70,9 +70,7 @@
     {
       "scope": [
         "entity.name.tag.reference",
-        "meta.attribute.unrecognized.*ngIf entity.other.attribute-name",
-        "meta.attribute.unrecognized.*ngFor entity.other.attribute-name",
-        "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name",
+        "meta.attribute.unrecognized entity.other.attribute-name",
         "meta.tag",
         "support.variable",
         "variable"
@@ -84,7 +82,8 @@
     {
       "scope": [
         "comment",
-        "comment punctuation"
+        "comment punctuation",
+        "punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#777"
@@ -92,10 +91,10 @@
     },
     {
       "scope": [
+        "constant.character",
         "keyword.control",
         "keyword.other.unit",
         "punctuation.definition.string",
-        "punctuation.definition.tag",
         "punctuation.definition.type",
         "punctuation.support",
         "punctuation.terminator",
@@ -111,10 +110,13 @@
         "keyword.control.flow",
         "keyword.control.switch",
         "keyword.control.trycatch",
-        "keyword.operator.new"
+        "keyword.operator.new",
+        "meta.attribute.unrecognized.*ngIf entity.other.attribute-name",
+        "meta.attribute.unrecognized.*ngFor entity.other.attribute-name",
+        "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#d9f"
+        "foreground": "#f9f"
       }
     },
     {
@@ -133,18 +135,10 @@
         "keyword.operator",
         "keyword.other",
         "meta.brace",
-        "punctuation"
+        "punctuation.separator"
       ],
       "settings": {
         "foreground": "#eee"
-      }
-    },
-    {
-      "scope": [
-        "constant.character"
-      ],
-      "settings": {
-        "foreground": "#ccc"
       }
     }
   ],
