@@ -31,11 +31,18 @@
     },
     {
       "scope": [
-        "keyword",
         "storage"
       ],
       "settings": {
         "foreground": "#a9f"
+      }
+    },
+    {
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#f0f"
       }
     },
     {
@@ -117,6 +124,7 @@
         "keyword.control.switch",
         "keyword.control.trycatch",
         "keyword.operator.new",
+        "keyword.other.debugger",
         "meta.attribute.unrecognized.*ngIf entity.other.attribute-name",
         "meta.attribute.unrecognized.*ngFor entity.other.attribute-name",
         "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name",
