@@ -108,6 +108,7 @@
         "punctuation.definition.string",
         "punctuation.definition.template-expression",
         "punctuation.definition.type",
+        "punctuation.definition.typeparameters",
         "punctuation.support",
         "punctuation.terminator",
         "storage.modifier"
