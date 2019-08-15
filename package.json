@@ -12,7 +12,7 @@
   "name": "arcade",
   "displayName": "Arcade",
   "description": "Somewhere between neon and pastel",
-  "version": "0.1.25",
+  "version": "0.1.26",
   "engines": {
     "vscode": "^1.36.0"
   },

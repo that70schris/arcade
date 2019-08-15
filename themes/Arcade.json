@@ -152,6 +152,7 @@
         "keyword.other",
         "meta.brace",
         "meta.scope.function-call",
+        "punctuation.accessor",
         "punctuation.separator"
       ],
       "settings": {
