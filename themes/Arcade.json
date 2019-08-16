@@ -124,6 +124,7 @@
         "constant.language.merge.yaml",
         "keyword.control.conditional",
         "keyword.control.flow",
+        "keyword.control.loop",
         "keyword.control.switch",
         "keyword.control.trycatch",
         "keyword.operator.new",
