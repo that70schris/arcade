@@ -61,6 +61,7 @@
         "entity.other.inherited-class",
         "meta.type",
         "support.class",
+        "support.constant.math",
         "support.type",
         "source.css entity.other.attribute-name"
       ],
