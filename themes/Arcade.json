@@ -113,7 +113,8 @@
         "punctuation.definition.typeparameters",
         "punctuation.support",
         "punctuation.terminator",
-        "storage.modifier"
+        "storage.modifier",
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#999"
