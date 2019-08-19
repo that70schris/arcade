@@ -19,14 +19,30 @@
   "tokenColors": [
     {
       "scope": [
-        "entity.name.function",
-        "keyword.other.special-method",
-        "meta.function",
-        "meta.function-call",
-        "support.function"
+        "comment",
+        "punctuation.definition.string",
+        "punctuation.definition.tag",
+        "punctuation.definition.template-expression",
+        "punctuation.definition.type",
+        "punctuation.definition.typeparameters",
+        "punctuation.support",
+        "punctuation.terminator"
       ],
       "settings": {
-        "foreground": "#9ef"
+        "foreground": "#777"
+      }
+    },
+    {
+      "scope": [
+        "constant.character",
+        "constant.other.placeholder",
+        "keyword.control",
+        "keyword.other.unit",
+        "storage.modifier",
+        "support.type.object.module"
+      ],
+      "settings": {
+        "foreground": "#aaa"
       }
     },
     {
@@ -41,10 +57,14 @@
     },
     {
       "scope": [
-        "keyword"
+        "entity.name.function",
+        "keyword.other.special-method",
+        "meta.function",
+        "meta.function-call",
+        "support.function"
       ],
       "settings": {
-        "foreground": "#f0f"
+        "foreground": "#9ef"
       }
     },
     {
@@ -71,54 +91,17 @@
         "foreground": "#ec7"
       }
     },
-    {
-      "scope": [
-        "string",
-        "meta.attribute-selector"
-      ],
-      "settings": {
-        "foreground": "#7e7"
-      }
-    },
+
     {
       "scope": [
         "entity.name.tag.reference",
         "entity.name.type.anchor",
         "meta.attribute.unrecognized entity.other.attribute-name",
-        "meta.tag",
         "support.variable",
         "variable"
       ],
       "settings": {
         "foreground": "#7be"
-      }
-    },
-    {
-      "scope": [
-        "comment",
-        "punctuation.definition.string",
-        "punctuation.definition.tag",
-        "punctuation.definition.template-expression",
-        "punctuation.definition.type",
-        "punctuation.definition.typeparameters",
-        "punctuation.support",
-        "punctuation.terminator"
-      ],
-      "settings": {
-        "foreground": "#777"
-      }
-    },
-    {
-      "scope": [
-        "constant.character",
-        "constant.other.placeholder",
-        "keyword.control",
-        "keyword.other.unit",
-        "storage.modifier",
-        "support.type.object.module"
-      ],
-      "settings": {
-        "foreground": "#aaa"
       }
     },
     {
@@ -152,15 +135,10 @@
     },
     {
       "scope": [
-        "keyword.operator",
-        "keyword.other",
-        "meta.brace",
-        "meta.scope.function-call",
-        "punctuation.accessor",
-        "punctuation.separator"
+        "string"
       ],
       "settings": {
-        "foreground": "#eee"
+        "foreground": "#7e7"
       }
     }
   ],
