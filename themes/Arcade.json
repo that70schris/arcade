@@ -96,8 +96,13 @@
     {
       "scope": [
         "comment",
-        "keyword",
-        "punctuation.definition.tag"
+        "punctuation.definition.string",
+        "punctuation.definition.tag",
+        "punctuation.definition.template-expression",
+        "punctuation.definition.type",
+        "punctuation.definition.typeparameters",
+        "punctuation.support",
+        "punctuation.terminator"
       ],
       "settings": {
         "foreground": "#777"
@@ -109,17 +114,11 @@
         "constant.other.placeholder",
         "keyword.control",
         "keyword.other.unit",
-        "punctuation.definition.string",
-        "punctuation.definition.template-expression",
-        "punctuation.definition.type",
-        "punctuation.definition.typeparameters",
-        "punctuation.support",
-        "punctuation.terminator",
         "storage.modifier",
         "support.type.object.module"
       ],
       "settings": {
-        "foreground": "#999"
+        "foreground": "#aaa"
       }
     },
     {
