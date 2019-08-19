@@ -47,8 +47,18 @@
     },
     {
       "scope": [
+        "keyword.operator",
+        "punctuation.accessor"
+      ],
+      "settings": {
+        "foreground": "#eee"
+      }
+    },
+    {
+      "scope": [
         "keyword.operator.expression.delete",
         "keyword.operator.new",
+        "keyword.control.as",
         "storage"
       ],
       "settings": {
