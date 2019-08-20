@@ -48,13 +48,15 @@
     },
     {
       "scope": [
+        "entity.name.context",
         "keyword.operator",
         "punctuation.accessor",
         "punctuation.definition.section",
         "punctuation.separator",
         "meta.block",
         "meta.function",
-        "meta.parameters"
+        "meta.parameters",
+        "meta.scope.function-call"
       ],
       "settings": {
         "foreground": "#eee"
@@ -69,7 +71,7 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#a9f"
+        "foreground": "#aaf"
       }
     },
     {
@@ -77,6 +79,7 @@
         "constant.language.merge.yaml",
         "keyword.control.conditional",
         "keyword.control.flow",
+        "keyword.control.include",
         "keyword.control.loop",
         "keyword.control.switch",
         "keyword.control.trycatch",
@@ -87,7 +90,7 @@
         "punctuation.definition.anchor"
       ],
       "settings": {
-        "foreground": "#f9f"
+        "foreground": "#faf"
       }
     },
     {
