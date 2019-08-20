@@ -54,6 +54,7 @@
         "punctuation.definition.section",
         "punctuation.separator",
         "meta.block",
+        "meta.brace",
         "meta.function",
         "meta.parameters",
         "meta.scope.function-call"
