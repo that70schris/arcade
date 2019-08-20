@@ -141,6 +141,7 @@
     {
       "scope": [
         "entity.other.attribute-name",
+        "keyword.directive",
         "meta.object-literal.key",
         "support.type.property-name",
         "source.yaml entity.name.tag"
