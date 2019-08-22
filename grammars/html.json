@@ -1,0 +1,18 @@
+{
+  "injectionSelector": "L:meta.attribute.unrecognized",
+  "patterns": [
+    {
+      "match": "\\[\\w+\\]=\\[\"'].*[\"']",
+      "name": "meta.attribute.input"
+    },
+    {
+      "match": "\\(\\w+\\)=\\[\"'].*[\"']",
+      "name": "meta.attribute.output"
+    },
+    {
+      "match": "\\*\\w+=\\[\"'].*[\"']",
+      "name": "meta.attribute.control"
+    }
+  ],
+  "scopeName": "html.injection"
+}

@@ -87,6 +87,12 @@
         "meta.attribute.unrecognized.*ngIf entity.other.attribute-name",
         "meta.attribute.unrecognized.*ngFor entity.other.attribute-name",
         "meta.attribute.unrecognized.*ngSwitchCase entity.other.attribute-name",
+        "meta.attribute.unrecognized.*matHeaderRowDef entity.other.attribute-name",
+        "meta.attribute.unrecognized.*matHeaderCellDef entity.other.attribute-name",
+        "meta.attribute.unrecognized.*matRowDef entity.other.attribute-name",
+        "meta.attribute.unrecognized.*matCellDef entity.other.attribute-name",
+        "meta.attribute.unrecognized.*matFooterRowDef entity.other.attribute-name",
+        "meta.attribute.unrecognized.*matFooterCellDef entity.other.attribute-name",
         "punctuation.definition.anchor"
       ],
       "settings": {

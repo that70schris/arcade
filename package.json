@@ -1,31 +1,40 @@
 {
   "author": {
-    "name": "Chris Bailey",
     "email": "chris@bailey.codes",
+    "name": "Chris Bailey",
     "url": "https://bailey.codes"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/that70schris/arcade"
-  },
-  "publisher": "that70schris",
-  "name": "arcade",
-  "displayName": "Arcade",
-  "description": "Somewhere between neon and pastel",
-  "version": "0.1.60",
-  "engines": {
-    "vscode": "^1.36.0"
   },
   "categories": [
     "Themes"
   ],
   "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "text.html.derivative"
+        ],
+        "path": "./grammars/html.json",
+        "scopeName": "html.injection"
+      }
+    ],
     "themes": [
       {
         "label": "Arcade",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Arcade.json"
+        "path": "./themes/Arcade.json",
+        "uiTheme": "vs-dark"
       }
     ]
-  }
+  },
+  "description": "Somewhere between neon and pastel",
+  "displayName": "Arcade",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "name": "arcade",
+  "publisher": "that70schris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/that70schris/arcade"
+  },
+  "version": "0.1.82"
 }
