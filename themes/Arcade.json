@@ -38,7 +38,6 @@
         "constant.other.placeholder",
         "keyword.control",
         "keyword.other.unit",
-        "punctuation.decorator",
         "storage.modifier",
         "support.type.object.module"
       ],
@@ -72,7 +71,7 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#aaf"
+        "foreground": "#9af"
       }
     },
     {
@@ -91,7 +90,7 @@
         "punctuation.definition.anchor"
       ],
       "settings": {
-        "foreground": "#faf"
+        "foreground": "#eaf"
       }
     },
     {
@@ -148,7 +147,8 @@
         "keyword.directive",
         "meta.object-literal.key",
         "support.type.property-name",
-        "source.yaml entity.name.tag"
+        "source.yaml entity.name.tag",
+        "support.type.map.key"
       ],
       "settings": {
         "foreground": "#b97"
