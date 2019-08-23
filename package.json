@@ -11,7 +11,7 @@
     "grammars": [
       {
         "injectTo": [
-          "text"
+          "text.html"
         ],
         "path": "./grammars/html.json",
         "scopeName": "injection"
@@ -36,5 +36,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.2.0"
+  "version": "0.2.5"
 }
