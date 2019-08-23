@@ -1,0 +1,8 @@
+{
+  "scopeName": "injection.js",
+  "injectionSelector": "L:source.js -comment",
+  "patterns": [{
+    "match": "(\")",
+    "name": "hello"
+  }]
+}

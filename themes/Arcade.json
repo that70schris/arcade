@@ -155,7 +155,8 @@
     },
     {
       "scope": [
-        "string"
+        "string",
+        "text.html"
       ],
       "settings": {
         "foreground": "#7e7"
