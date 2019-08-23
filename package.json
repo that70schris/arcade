@@ -11,10 +11,10 @@
     "grammars": [
       {
         "injectTo": [
-          "text.html.derivative"
+          "text"
         ],
         "path": "./grammars/html.json",
-        "scopeName": "html.injection"
+        "scopeName": "injection"
       }
     ],
     "themes": [
@@ -36,5 +36,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.1.82"
+  "version": "0.2.0"
 }
