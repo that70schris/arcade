@@ -12,8 +12,8 @@
       },
       "patterns": [
         {
-          "begin": "\"",
-          "end": "\"",
+          "begin": "[\"']",
+          "end": "[\"']",
           "name": "string.quoted.double.html",
           "beginCaptures": {
             "0": {
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "begin": "\\*\\w+(?==)",
+      "begin": "\\*\\w+",
       "end": "(?=\\s*+[^=\\s])",
       "name": "meta.attribute.control.html",
       "beginCaptures": {

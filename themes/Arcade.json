@@ -85,7 +85,8 @@
         "keyword.control.trycatch",
         "keyword.other.debugger",
         "meta.attribute.control entity.other.attribute-name",
-        "punctuation.definition.anchor"
+        "punctuation.definition.anchor",
+        "hello"
       ],
       "settings": {
         "foreground": "#eaf"
@@ -142,11 +143,11 @@
     },
     {
       "scope": [
+        "entity.name.tag.yaml",
         "entity.other.attribute-name",
         "keyword.directive",
         "meta.object-literal.key",
         "support.type.property-name",
-        "source.yaml entity.name.tag",
         "support.type.map.key"
       ],
       "settings": {
@@ -160,6 +161,14 @@
       ],
       "settings": {
         "foreground": "#7e7"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings":{
+        "foreground": "#ef7"
       }
     }
   ],
