@@ -1,6 +1,6 @@
 {
   "scopeName": "injection.html",
-  "injectionSelector": "L:text.html",
+  "injectionSelector": "L:text.html -comment",
   "repository": {
     "value": {
       "begin": "=",
