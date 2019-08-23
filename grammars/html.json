@@ -1,5 +1,5 @@
 {
-  "scopeName": "injection",
+  "scopeName": "injection.html",
   "injectionSelector": "L:text.html",
   "repository": {
     "value": {
@@ -30,6 +30,25 @@
     }
   },
   "patterns": [
+    {
+      "begin": "\\{\\{",
+      "end": "\\}\\}",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.definition.template-expression.begin.html"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.definition.template-expression.end.html"
+        }
+      },
+      "patterns": [
+        {
+        "include": "source.js"
+        }
+      ]
+    },
     {
       "begin": "\\[[\\w\\.]+\\](?==)",
       "end": "(?=\\s*+[^=\\s])",
