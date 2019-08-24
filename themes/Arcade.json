@@ -1,12 +1,12 @@
 {
   "colors": {
     "activityBarBadge.background": "#37c",
-    "editor.background": "#222",
+    "editor.background": "#111",
     "editor.foreground": "#eee",
-    "editor.lineHighlightBackground": "#111",
+    "editor.lineHighlightBackground": "#333",
     "editor.selectionBackground": "#555",
     "editorCursor.foreground": "#fff",
-    "editorGutter.background": "#333",
+    "editorGutter.background": "#222",
     "editorIndentGuide.background": "#444",
     "editorMarkerNavigationWarning.background": "#eee",
     "editorOverviewRuler.warningForeground": "#eee",
