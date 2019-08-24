@@ -6,7 +6,7 @@
     "editor.lineHighlightBackground": "#333",
     "editor.selectionBackground": "#444",
     "editorCursor.foreground": "#fff",
-    "editorGroup.border": "#222",
+    "editorGroup.border": "#000",
     "editorGroupHeader.tabsBackground": "#111",
     "editorGutter.background": "#222",
     "editorHoverWidget.background": "#222",
@@ -22,7 +22,8 @@
     "list.activeSelectionBackground": "#444",
     "list.warningForeground": "#ef7",
     "sideBar.background": "#111",
-    "statusBar.background": "#333"
+    "statusBar.background": "#333",
+    "tab.border": "#000"
   },
   "name": "Arcade",
   "tokenColors": [
