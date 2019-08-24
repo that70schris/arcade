@@ -1,19 +1,28 @@
 {
   "colors": {
     "activityBarBadge.background": "#37c",
-    "editor.background": "#111",
+    "editor.background": "#000",
     "editor.foreground": "#eee",
     "editor.lineHighlightBackground": "#333",
-    "editor.selectionBackground": "#555",
+    "editor.selectionBackground": "#444",
     "editorCursor.foreground": "#fff",
+    "editorGroup.border": "#222",
+    "editorGroupHeader.tabsBackground": "#111",
     "editorGutter.background": "#222",
-    "editorIndentGuide.background": "#444",
+    "editorHoverWidget.background": "#222",
+    "editorIndentGuide.activeBackground": "#777",
+    "editorIndentGuide.background": "#333",
     "editorMarkerNavigationWarning.background": "#eee",
     "editorOverviewRuler.warningForeground": "#eee",
+    "editorSuggestWidget.background": "#111",
     "editorWarning.foreground": "#ccc",
+    "editorWidget.background": "#444",
+    "input.background": "#222",
+    "inputOption.activeBackground": "#777",
+    "list.activeSelectionBackground": "#444",
     "list.warningForeground": "#ef7",
-    "sideBarTitle.foreground": "#bbb",
-    "statusBar.background": "#666"
+    "sideBar.background": "#111",
+    "statusBar.background": "#333"
   },
   "name": "Arcade",
   "tokenColors": [
@@ -167,7 +176,7 @@
       "scope": [
         "constant.character.escape"
       ],
-      "settings":{
+      "settings": {
         "foreground": "#ef7"
       }
     }
