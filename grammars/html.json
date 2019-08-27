@@ -12,8 +12,8 @@
       },
       "patterns": [
         {
-          "begin": "[\"']",
-          "end": "[\"']",
+          "begin": "[\"]",
+          "end": "[\"]",
           "name": "string.quoted.double.html",
           "beginCaptures": {
             "0": {
