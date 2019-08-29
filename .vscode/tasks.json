@@ -4,14 +4,19 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "publish",
+      "label": "build",
       "type": "shell",
-      "command": "vsce publish patch",
-      "problemMatcher": [],
+      "command": "ts-node ./theme.ts ./themes/Arcade.css",
       "group": {
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "publish",
+      "type": "shell",
+      "command": "vsce publish patch",
+      "problemMatcher": [],
     }
   ]
 }

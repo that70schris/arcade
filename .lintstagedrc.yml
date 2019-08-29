@@ -1,0 +1,6 @@
+./**/*.html: ['prettier --write', 'git add']
+./**/*.scss: ['stylelint --fix', 'git add']
+./**/*.ts:
+  - eslint --fix
+  - tslint --fix
+  - git add
