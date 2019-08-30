@@ -43,9 +43,11 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.5.4",
+  "version": "0.5.8",
   "devDependencies": {
     "@types/node": "12.7.2",
-    "css": "2.2.4"
+    "css": "2.2.4",
+    "plist": "3.0.1",
+    "ts-node": "8.3.0"
   }
 }

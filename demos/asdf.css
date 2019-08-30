@@ -31,7 +31,7 @@
   foreground: #eee;
 }
 
-.case-clause .keyword.control.switch,
+.case-clause keyword.control.switch,
 .keyword.operator.expression,
 .keyword.operator.new,
 .keyword.control.as,
@@ -78,7 +78,6 @@
 
 .entity.name,
 .entity.other.inherited-class,
-.meta.selector,
 .meta.type,
 .support.class,
 .support.constant.math,
@@ -88,12 +87,12 @@
 }
 
 .entity.name.tag.yaml,
+.entity.other.attribute-name,
 .keyword.directive,
 .meta.object-literal.key,
 .meta.property-name,
 .support.type.property-name,
-.support.type.map.key,
-.source.html .entity.other.attribute-name {
+.support.type.map.key {
   foreground: #b97;
 }
 

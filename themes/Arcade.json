@@ -26,6 +26,6 @@
     "tab.border": "#0000"
   },
   "name": "Arcade",
-  "tokenColors": "Arcade.tmTheme",
+  "tokenColors": "Arcade.tokens",
   "type": "dark"
 }
