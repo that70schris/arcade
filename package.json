@@ -43,7 +43,7 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.5.8",
+  "version": "0.5.9",
   "devDependencies": {
     "@types/node": "12.7.2",
     "css": "2.2.4",

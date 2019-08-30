@@ -87,7 +87,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.tag.yaml, keyword.directive, meta.object-literal.key, meta.property-name, support.type.property-name, support.type.map.key, source.html entity.other.attribute-name</string>
+        <string>entity.name.tag.yaml, keyword.directive, meta.object-literal.key, meta.property-name, support.type.property-name, support.type.map.key, text entity.other.attribute-name</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

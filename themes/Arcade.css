@@ -93,7 +93,7 @@
 .meta.property-name,
 .support.type.property-name,
 .support.type.map.key,
-.source.html .entity.other.attribute-name {
+.text .entity.other.attribute-name {
   foreground: #b97;
 }
 
