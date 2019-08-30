@@ -6,7 +6,7 @@
     <array>
       <dict>
         <key>scope</key>
-        <string>comment, punctuation.definition.string, punctuation.definition.tag, punctuation.definition.template-expression, punctuation.definition.type, punctuation.definition.typeparameters, punctuation.support, punctuation.terminator</string>
+        <string>comment, punctuation.definition.string, punctuation.definition.tag, punctuation.definition.template-expression, punctuation.definition.type, punctuation.definition.typeparameters, punctuation.definition.variable, punctuation.support, punctuation.terminator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

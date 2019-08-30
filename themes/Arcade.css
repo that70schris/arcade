@@ -4,6 +4,7 @@
 .punctuation.definition.template-expression,
 .punctuation.definition.type,
 .punctuation.definition.typeparameters,
+.punctuation.definition.variable,
 .punctuation.support,
 .punctuation.terminator {
   foreground: #777;
