@@ -96,20 +96,11 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>string, text.html</string>
+        <string>meta.attribute-selector, string, text.html</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#7e7</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>constant.character.escape</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#ef7</string>
         </dict>
       </dict>
     </array>

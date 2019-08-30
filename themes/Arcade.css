@@ -42,6 +42,7 @@
 }
 
 .constant.language.merge.yaml,
+.entity.name.tag.reference,
 .keyword.control.conditional,
 .keyword.control.flow,
 .keyword.control.include,
@@ -61,7 +62,6 @@
   foreground: #37c;
 }
 
-.entity.name.tag.reference,
 .entity.name.type.anchor,
 .meta.attribute.input .entity.other.attribute-name,
 .support.variable,
@@ -99,11 +99,8 @@
   foreground: #b97;
 }
 
+.meta.attribute-selector,
 .string,
 .text.html {
   foreground: #7e7;
-}
-
-.constant.character.escape {
-  foreground: #ef7;
 }

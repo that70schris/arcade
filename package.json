@@ -43,9 +43,10 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.5.11",
+  "version": "0.5.13",
   "devDependencies": {
     "@types/node": "12.7.2",
+    "@typescript-eslint/parser": "2.0.0",
     "codelyzer": "5.1.0",
     "css": "2.2.4",
     "eslint": "6.2.2",

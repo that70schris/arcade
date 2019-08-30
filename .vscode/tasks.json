@@ -6,7 +6,10 @@
     {
       "label": "build",
       "type": "shell",
-      "command": "ts-node ./tokens.ts ./themes/Arcade.css",
+      "command": "ts-node ./tokens.ts",
+      "args": [
+        "./themes/Arcade.css"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
