@@ -24,7 +24,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.context, keyword.operator, punctuation.accessor, punctuation.definition.section, punctuation.separator, meta.block, meta.brace, meta.function, meta.parameters, meta.scope.function-call</string>
+        <string>entity.name.context, keyword.operator, punctuation.accessor, punctuation.definition.entity, punctuation.definition.section, punctuation.separator, meta.block, meta.brace, meta.function, meta.parameters, meta.scope.function-call</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
