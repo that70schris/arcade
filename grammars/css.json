@@ -1,0 +1,18 @@
+{
+  "scopeName": "injection.css",
+  "injectionSelector": "L:source.css",
+  "patterns": [
+    {
+      "match": "(/|::)((ng-)?deep)[^\\{]+",
+      "name": "entity.other.attribute-name",
+      "captures": {
+        "1": {
+          "name": "punctuation"
+        },
+        "2": {
+          "name": "anchor"
+        }
+      }
+    }
+  ]
+}

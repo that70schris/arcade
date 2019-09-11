@@ -108,7 +108,7 @@
   foreground: #7be;
 }
 
-.variable.language.this {
+.variable.language {
   foreground: #37c;
 }
 
@@ -232,6 +232,10 @@
 .punctuation.support,
 .punctuation.terminator {
   foreground: #777;
+}
+
+.anchor {
+  foreground: #eaf;
 }
 
 .comment {

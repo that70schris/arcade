@@ -5,7 +5,11 @@
     "match": ";",
     "name": "comment"
   }, {
-    "match": "@\\w+",
-    "name": "punctuation.definition.anchor"
+    "match": "@(\\w+)",
+    "captures": {
+      "1": {
+        "name": "anchor"
+      }
+    }
   }]
 }

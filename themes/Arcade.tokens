@@ -213,7 +213,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>variable.language.this</string>
+        <string>variable.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -461,6 +461,15 @@
         <dict>
           <key>foreground</key>
           <string>#777</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>anchor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
         </dict>
       </dict>
       <dict>
