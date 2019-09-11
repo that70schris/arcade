@@ -6,69 +6,6 @@
     <array>
       <dict>
         <key>scope</key>
-        <string>comment</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#777</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>punctuation</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#eee</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>punctuation.definition.string, punctuation.definition.tag, punctuation.definition.template-expression, punctuation.definition.type, punctuation.definition.typeparameters, punctuation.definition.variable</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#777</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>punctuation.definition.anchor</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#eaf</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>punctuation.support, punctuation.terminator</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#777</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>storage</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#a8f</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>storage.modifier</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
         <string>keyword</string>
         <key>settings</key>
         <dict>
@@ -123,7 +60,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>keyword.control.as</string>
+        <string>keyword.control.as, source.css keyword.control</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -159,6 +96,24 @@
       </dict>
       <dict>
         <key>scope</key>
+        <string>storage</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>storage.modifier</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
         <string>constant</string>
         <key>settings</key>
         <dict>
@@ -186,11 +141,20 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>support.constant.math</string>
+        <string>support.constant.math, support.constant.mathematical-symbols</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ec7</string>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.constant.property-value</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
         </dict>
       </dict>
       <dict>
@@ -289,7 +253,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#eaf</string>
+          <string>#37c</string>
         </dict>
       </dict>
       <dict>
@@ -321,11 +285,29 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>source.css entity.other.attribute-name</string>
+        <string>entity.other.attribute-name.attribute</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.other.attribute-name.parent-selector-suffix punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>source.css entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
         </dict>
       </dict>
       <dict>
@@ -366,15 +348,6 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>string</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#7e7</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
         <string>text.html</string>
         <key>settings</key>
         <dict>
@@ -411,11 +384,20 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>meta.block, meta.brace, meta.function, meta.parameters, meta.scope.function-call</string>
+        <string>meta.block, meta.function, meta.parameters, meta.scope.function-call</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.brace</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
         </dict>
       </dict>
       <dict>
@@ -425,6 +407,87 @@
         <dict>
           <key>foreground</key>
           <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>punctuation</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>punctuation.definition.comment, punctuation.definition.interpolation, punctuation.definition.string, punctuation.definition.tag, punctuation.definition.template-expression, punctuation.definition.type, punctuation.definition.typeparameters, punctuation.definition.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#777</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>punctuation.definition.anchor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>punctuation.definition.constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>source.nginx punctuation.definition.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7e7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>punctuation.support, punctuation.terminator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#777</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>comment</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#777</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>string</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7e7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>string.ipaddress</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
         </dict>
       </dict>
     </array>

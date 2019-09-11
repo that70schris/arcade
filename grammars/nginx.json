@@ -1,0 +1,11 @@
+{
+  "scopeName": "injection.nginx",
+  "injectionSelector": "L:source.nginx",
+  "patterns": [{
+    "match": ";",
+    "name": "comment"
+  }, {
+    "match": "@\\w+",
+    "name": "punctuation.definition.anchor"
+  }]
+}

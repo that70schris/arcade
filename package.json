@@ -18,10 +18,24 @@
       },
       {
         "injectTo": [
+          "source.css"
+        ],
+        "path": "./grammars/css.json",
+        "scopeName": "injection.css"
+      },
+      {
+        "injectTo": [
           "text.html"
         ],
         "path": "./grammars/javascript.json",
         "scopeName": "injection.js"
+      },
+      {
+        "injectTo": [
+          "source.nginx"
+        ],
+        "path": "./grammars/nginx.json",
+        "scopeName": "injection.nginx"
       }
     ],
     "themes": [
@@ -43,7 +57,7 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.6.1",
+  "version": "0.6.26",
   "devDependencies": {
     "@types/css": "0.0.31",
     "@types/node": "12.7.2",

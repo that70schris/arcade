@@ -1,62 +1,67 @@
-.comment {
-  foreground: #777;
+.keyword {
+  foreground: #aaa;
 }
 
-.punctuation {
+.keyword.operator {
   foreground: #eee;
 }
-.punctuation.definition.string, .punctuation.definition.tag, .punctuation.definition.template-expression, .punctuation.definition.type, .punctuation.definition.typeparameters, .punctuation.definition.variable {
-  foreground: #777;
+
+.keyword.operator.expression,
+.keyword.operator.new {
+  foreground: #a8f;
 }
-.punctuation.definition.anchor {
+
+.keyword.control {
+  foreground: #aaa;
+}
+
+.keyword.control.conditional,
+.keyword.control.flow,
+.keyword.control.include,
+.keyword.control.loop,
+.keyword.control.switch,
+.keyword.control.trycatch {
   foreground: #eaf;
 }
-.punctuation.support, .punctuation.terminator {
-  foreground: #777;
+
+.case-clause .keyword.control.conditional,
+.case-clause .keyword.control.flow,
+.case-clause .keyword.control.include,
+.case-clause .keyword.control.loop,
+.case-clause .keyword.control.switch,
+.case-clause .keyword.control.trycatch {
+  foreground: #a8f;
+}
+
+.keyword.control.as,
+.source.css .keyword.control {
+  foreground: #a8f;
+}
+
+.keyword.directive {
+  foreground: #b97;
+}
+
+.keyword.other.debugger {
+  foreground: #eaf;
+}
+
+.keyword.other.special-method {
+  foreground: #9ef;
 }
 
 .storage {
   foreground: #a8f;
 }
+
 .storage.modifier {
   foreground: #aaa;
-}
-
-.keyword {
-  foreground: #aaa;
-}
-.keyword.operator {
-  foreground: #eee;
-}
-.keyword.operator.expression, .keyword.operator.new {
-  foreground: #a8f;
-}
-.keyword.control {
-  foreground: #aaa;
-}
-.keyword.control.conditional, .keyword.control.flow, .keyword.control.include, .keyword.control.loop, .keyword.control.switch, .keyword.control.trycatch {
-  foreground: #eaf;
-}
-.case-clause .keyword.control.conditional, .case-clause .keyword.control.flow, .case-clause .keyword.control.include, .case-clause .keyword.control.loop, .case-clause .keyword.control.switch, .case-clause .keyword.control.trycatch {
-  foreground: #a8f;
-}
-
-.keyword.control.as {
-  foreground: #a8f;
-}
-.keyword.directive {
-  foreground: #b97;
-}
-.keyword.other.debugger {
-  foreground: #eaf;
-}
-.keyword.other.special-method {
-  foreground: #9ef;
 }
 
 .constant {
   foreground: #37c;
 }
+
 .constant.language.merge {
   foreground: #eaf;
 }
@@ -64,21 +69,37 @@
 .support.constant {
   foreground: #37c;
 }
-.support.constant.math {
-  foreground: #ec7;
+
+.support.constant.math,
+.support.constant.mathematical-symbols {
+  foreground: #eee;
 }
-.support.class, .support.type {
-  foreground: #ec7;
-}
-.support.class.property-name, .support.class.map.key, .support.type.property-name, .support.type.map.key {
-  foreground: #b97;
-}
-.support.class.object.module, .support.type.object.module {
+
+.support.constant.property-value {
   foreground: #aaa;
 }
+
+.support.class,
+.support.type {
+  foreground: #ec7;
+}
+
+.support.class.property-name,
+.support.class.map.key,
+.support.type.property-name,
+.support.type.map.key {
+  foreground: #b97;
+}
+
+.support.class.object.module,
+.support.type.object.module {
+  foreground: #aaa;
+}
+
 .support.function {
   foreground: #9ef;
 }
+
 .support.variable {
   foreground: #7be;
 }
@@ -86,6 +107,7 @@
 .variable {
   foreground: #7be;
 }
+
 .variable.language.this {
   foreground: #37c;
 }
@@ -93,18 +115,23 @@
 .entity {
   foreground: #ec7;
 }
+
 .entity.name.function {
   foreground: #9ef;
 }
+
 .entity.name.type.anchor {
   foreground: #7be;
 }
+
 .entity.name.tag.reference {
-  foreground: #eaf;
+  foreground: #37c;
 }
+
 .entity.name.context {
   foreground: #eee;
 }
+
 .source.yaml .entity.name {
   foreground: #b97;
 }
@@ -112,24 +139,33 @@
 .entity.other.inherited-class {
   foreground: #ec7;
 }
-.source.css .entity.other.attribute-name {
+
+.entity.other.attribute-name.attribute {
   foreground: #b97;
 }
+
+.entity.other.attribute-name.parent-selector-suffix .punctuation {
+  foreground: #ec7;
+}
+
+.source.css .entity.other.attribute-name {
+  foreground: #ec7;
+}
+
 .text .entity.other.attribute-name {
   foreground: #b97;
 }
+
 .meta.attribute.control .entity.other.attribute-name {
   foreground: #eaf;
 }
+
 .meta.attribute.input .entity.other.attribute-name {
   foreground: #7be;
 }
+
 .meta.attribute.output .entity.other.attribute-name {
   foreground: #9ef;
-}
-
-.string {
-  foreground: #7e7;
 }
 
 .text.html {
@@ -139,15 +175,73 @@
 .meta.attribute-selector {
   foreground: #7e7;
 }
-.meta.property-name, .meta.object-literal.key {
+
+.meta.property-name,
+.meta.object-literal.key {
   foreground: #b97;
 }
-.meta.function, .meta.function-call {
+
+.meta.function,
+.meta.function-call {
   foreground: #9ef;
 }
-.meta.block, .meta.brace, .meta.function, .meta.parameters, .meta.scope.function-call {
+
+.meta.block,
+.meta.function,
+.meta.parameters,
+.meta.scope.function-call {
   foreground: #a8f;
 }
-.meta.type, .meta.selector {
+
+.meta.brace {
+  foreground: #eee;
+}
+
+.meta.type,
+.meta.selector {
   foreground: #ec7;
+}
+
+.punctuation {
+  foreground: #eee;
+}
+
+.punctuation.definition.comment,
+.punctuation.definition.interpolation,
+.punctuation.definition.string,
+.punctuation.definition.tag,
+.punctuation.definition.template-expression,
+.punctuation.definition.type,
+.punctuation.definition.typeparameters,
+.punctuation.definition.variable {
+  foreground: #777;
+}
+
+.punctuation.definition.anchor {
+  foreground: #eaf;
+}
+
+.punctuation.definition.constant {
+  foreground: #aaa;
+}
+
+.source.nginx .punctuation.definition.variable {
+  foreground: #7e7;
+}
+
+.punctuation.support,
+.punctuation.terminator {
+  foreground: #777;
+}
+
+.comment {
+  foreground: #777;
+}
+
+.string {
+  foreground: #7e7;
+}
+
+.string.ipaddress {
+  foreground: #37c;
 }

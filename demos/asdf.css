@@ -16,6 +16,9 @@
 .storage.modifier,
 .support.type.object.module {
   foreground: #aaa;
+
+  ::ng-deep {
+  }
 }
 
 .entity.name.context,

@@ -1,3 +1,4 @@
+$string: #7e7;
 $comment: #777;
 $support: #aaa;
 $puncuation: #eee;
@@ -8,43 +9,6 @@ $variable: #7be;
 $function: #9ef;
 $type: #ec7;
 $key: #b97;
-$string: #7e7;
-
-.comment {
-  foreground: $comment;
-}
-
-.punctuation {
-  foreground: $puncuation;
-
-  &.definition {
-    &.string,
-    &.tag,
-    &.template-expression,
-    &.type,
-    &.typeparameters,
-    &.variable {
-      foreground: $comment;
-    }
-
-    &.anchor {
-      foreground: $control;
-    }
-  }
-
-  &.support,
-  &.terminator {
-    foreground: $comment;
-  }
-}
-
-.storage {
-  foreground: $storage;
-
-  &.modifier {
-    foreground: $support;
-  }
-}
 
 .keyword {
   foreground: $support;
@@ -69,12 +33,13 @@ $string: #7e7;
     &.trycatch {
       foreground: $control;
 
-      @at-root .case-clause & {
+      .case-clause & {
         foreground: $storage;
       }
     }
 
-    &.as {
+    &.as,
+    .source.css & {
       foreground: $storage;
     }
   }
@@ -94,6 +59,14 @@ $string: #7e7;
   }
 }
 
+.storage {
+  foreground: $storage;
+
+  &.modifier {
+    foreground: $support;
+  }
+}
+
 .constant {
   foreground: $constant;
 
@@ -108,8 +81,13 @@ $string: #7e7;
   &.constant {
     foreground: $constant;
 
-    &.math {
-      foreground: $type;
+    &.math,
+    &.mathematical-symbols {
+      foreground: $puncuation;
+    }
+
+    &.property-value {
+      foreground: $support;
     }
   }
 
@@ -162,7 +140,7 @@ $string: #7e7;
 
     &.tag {
       &.reference {
-        foreground: $control;
+        foreground: $constant;
       }
     }
 
@@ -170,7 +148,7 @@ $string: #7e7;
       foreground: $puncuation;
     }
 
-    @at-root .source.yaml & {
+    .source.yaml & {
       foreground: $key;
     }
   }
@@ -182,6 +160,16 @@ $string: #7e7;
 
     &.attribute-name {
       $this: &;
+
+      &.attribute {
+        foreground: $key;
+      }
+
+      &.parent-selector-suffix {
+        .punctuation {
+          foreground: $type;
+        }
+      }
 
       .source.css & {
         foreground: $type;
@@ -208,10 +196,6 @@ $string: #7e7;
   }
 }
 
-.string {
-  foreground: $string;
-}
-
 .text {
   &.html {
     foreground: $puncuation;
@@ -236,15 +220,66 @@ $string: #7e7;
   }
 
   &.block,
-  &.brace,
   &.function,
   &.parameters,
   &.scope.function-call {
     foreground: $storage;
   }
 
+  &.brace {
+    foreground: $puncuation;
+  }
+
   &.type,
   &.selector {
     foreground: $type;
+  }
+}
+
+.punctuation {
+  foreground: $puncuation;
+
+  &.definition {
+    &.comment,
+    &.interpolation,
+    &.string,
+    &.tag,
+    &.template-expression,
+    &.type,
+    &.typeparameters,
+    &.variable {
+      foreground: $comment;
+    }
+
+    &.anchor {
+      foreground: $control;
+    }
+
+    &.constant {
+      foreground: $support;
+    }
+
+    .source.nginx & {
+      &.variable {
+        foreground: $string;
+      }
+    }
+  }
+
+  &.support,
+  &.terminator {
+    foreground: $comment;
+  }
+}
+
+.comment {
+  foreground: $comment;
+}
+
+.string {
+  foreground: $string;
+
+  &.ipaddress {
+    foreground: $constant;
   }
 }
