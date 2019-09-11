@@ -1,0 +1,250 @@
+$comment: #777;
+$support: #aaa;
+$puncuation: #eee;
+$storage: #a8f;
+$control: #eaf;
+$constant: #37c;
+$variable: #7be;
+$function: #9ef;
+$type: #ec7;
+$key: #b97;
+$string: #7e7;
+
+.comment {
+  foreground: $comment;
+}
+
+.punctuation {
+  foreground: $puncuation;
+
+  &.definition {
+    &.string,
+    &.tag,
+    &.template-expression,
+    &.type,
+    &.typeparameters,
+    &.variable {
+      foreground: $comment;
+    }
+
+    &.anchor {
+      foreground: $control;
+    }
+  }
+
+  &.support,
+  &.terminator {
+    foreground: $comment;
+  }
+}
+
+.storage {
+  foreground: $storage;
+
+  &.modifier {
+    foreground: $support;
+  }
+}
+
+.keyword {
+  foreground: $support;
+
+  &.operator {
+    foreground: $puncuation;
+
+    &.expression,
+    &.new {
+      foreground: $storage;
+    }
+  }
+
+  &.control {
+    foreground: $support;
+
+    &.conditional,
+    &.flow,
+    &.include,
+    &.loop,
+    &.switch,
+    &.trycatch {
+      foreground: $control;
+
+      @at-root .case-clause & {
+        foreground: $storage;
+      }
+    }
+
+    &.as {
+      foreground: $storage;
+    }
+  }
+
+  &.directive {
+    foreground: $key;
+  }
+
+  &.other {
+    &.debugger {
+      foreground: $control;
+    }
+
+    &.special-method {
+      foreground: $function;
+    }
+  }
+}
+
+.constant {
+  foreground: $constant;
+
+  &.language {
+    &.merge {
+      foreground: $control;
+    }
+  }
+}
+
+.support {
+  &.constant {
+    foreground: $constant;
+
+    &.math {
+      foreground: $type;
+    }
+  }
+
+  &.class,
+  &.type {
+    foreground: $type;
+
+    &.property-name,
+    &.map.key {
+      foreground: $key;
+    }
+
+    &.object.module {
+      foreground: $support;
+    }
+  }
+
+  &.function {
+    foreground: $function;
+  }
+
+  &.variable {
+    foreground: $variable;
+  }
+}
+
+.variable {
+  foreground: $variable;
+
+  &.language {
+    &.this {
+      foreground: $constant;
+    }
+  }
+}
+
+.entity {
+  foreground: $type;
+
+  &.name {
+    &.function {
+      foreground: $function;
+    }
+
+    &.type {
+      &.anchor {
+        foreground: $variable;
+      }
+    }
+
+    &.tag {
+      &.reference {
+        foreground: $control;
+      }
+    }
+
+    &.context {
+      foreground: $puncuation;
+    }
+
+    @at-root .source.yaml & {
+      foreground: $key;
+    }
+  }
+
+  &.other {
+    &.inherited-class {
+      foreground: $type;
+    }
+
+    &.attribute-name {
+      $this: &;
+
+      .source.css & {
+        foreground: $type;
+      }
+
+      .text & {
+        foreground: $key;
+      }
+
+      @at-root .meta.attribute {
+        &.control #{$this} {
+          foreground: $control;
+        }
+
+        &.input #{$this} {
+          foreground: $variable;
+        }
+
+        &.output #{$this} {
+          foreground: $function;
+        }
+      }
+    }
+  }
+}
+
+.string {
+  foreground: $string;
+}
+
+.text {
+  &.html {
+    foreground: $puncuation;
+  }
+}
+
+.meta {
+  &.attribute {
+    &-selector {
+      foreground: $string;
+    }
+  }
+
+  &.property-name,
+  &.object-literal.key {
+    foreground: $key;
+  }
+
+  &.function,
+  &.function-call {
+    foreground: $function;
+  }
+
+  &.block,
+  &.brace,
+  &.function,
+  &.parameters,
+  &.scope.function-call {
+    foreground: $storage;
+  }
+
+  &.type,
+  &.selector {
+    foreground: $type;
+  }
+}

@@ -1,6 +1,3 @@
-extends:
-  - codelyzer
-
 rules:
   ban-ts-ignore: true
   callable-types: true

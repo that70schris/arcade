@@ -1,106 +1,153 @@
-.comment,
-.punctuation.definition.string,
-.punctuation.definition.tag,
-.punctuation.definition.template-expression,
-.punctuation.definition.type,
-.punctuation.definition.typeparameters,
-.punctuation.definition.variable,
-.punctuation.support,
-.punctuation.terminator {
+.comment {
   foreground: #777;
 }
 
-.constant.character,
-.constant.other.placeholder,
-.keyword.control,
-.keyword.other.unit,
-.storage.modifier,
-.support.type.object.module {
-  foreground: #aaa;
-}
-
-.entity.name.context,
-.keyword.operator,
-.punctuation.accessor,
-.punctuation.definition.entity,
-.punctuation.definition.section,
-.punctuation.separator,
-.meta.block,
-.meta.brace,
-.meta.function,
-.meta.parameters,
-.meta.scope.function-call {
+.punctuation {
   foreground: #eee;
 }
+.punctuation.definition.string, .punctuation.definition.tag, .punctuation.definition.template-expression, .punctuation.definition.type, .punctuation.definition.typeparameters, .punctuation.definition.variable {
+  foreground: #777;
+}
+.punctuation.definition.anchor {
+  foreground: #eaf;
+}
+.punctuation.support, .punctuation.terminator {
+  foreground: #777;
+}
 
-.case-clause .keyword.control.switch,
-.keyword.operator.expression,
-.keyword.operator.new,
-.keyword.control.as,
 .storage {
   foreground: #a8f;
 }
+.storage.modifier {
+  foreground: #aaa;
+}
 
-.constant.language.merge.yaml,
-.entity.name.tag.reference,
-.keyword.control.conditional,
-.keyword.control.flow,
-.keyword.control.include,
-.keyword.control.loop,
-.keyword.control.switch,
-.keyword.control.trycatch,
-.keyword.other.debugger,
-.meta.attribute.control .entity.other.attribute-name,
-.punctuation.definition.anchor,
-.hello {
+.keyword {
+  foreground: #aaa;
+}
+.keyword.operator {
+  foreground: #eee;
+}
+.keyword.operator.expression, .keyword.operator.new {
+  foreground: #a8f;
+}
+.keyword.control {
+  foreground: #aaa;
+}
+.keyword.control.conditional, .keyword.control.flow, .keyword.control.include, .keyword.control.loop, .keyword.control.switch, .keyword.control.trycatch {
+  foreground: #eaf;
+}
+.case-clause .keyword.control.conditional, .case-clause .keyword.control.flow, .case-clause .keyword.control.include, .case-clause .keyword.control.loop, .case-clause .keyword.control.switch, .case-clause .keyword.control.trycatch {
+  foreground: #a8f;
+}
+
+.keyword.control.as {
+  foreground: #a8f;
+}
+.keyword.directive {
+  foreground: #b97;
+}
+.keyword.other.debugger {
+  foreground: #eaf;
+}
+.keyword.other.special-method {
+  foreground: #9ef;
+}
+
+.constant {
+  foreground: #37c;
+}
+.constant.language.merge {
   foreground: #eaf;
 }
 
-.constant,
-.support.constant,
+.support.constant {
+  foreground: #37c;
+}
+.support.constant.math {
+  foreground: #ec7;
+}
+.support.class, .support.type {
+  foreground: #ec7;
+}
+.support.class.property-name, .support.class.map.key, .support.type.property-name, .support.type.map.key {
+  foreground: #b97;
+}
+.support.class.object.module, .support.type.object.module {
+  foreground: #aaa;
+}
+.support.function {
+  foreground: #9ef;
+}
+.support.variable {
+  foreground: #7be;
+}
+
+.variable {
+  foreground: #7be;
+}
 .variable.language.this {
   foreground: #37c;
 }
 
-.entity.name.type.anchor,
-.meta.attribute.input .entity.other.attribute-name,
-.support.variable,
-.variable {
-  foreground: #7be;
-}
-
-.entity.name.function,
-.keyword.other.special-method,
-.meta.attribute.output .entity.other.attribute-name,
-.meta.function,
-.meta.function-call,
-.support.function {
-  foreground: #9ef;
-}
-
-.entity.name,
-.entity.other.inherited-class,
-.meta.selector,
-.meta.type,
-.support.class,
-.support.constant.math,
-.support.type,
-.source.css .entity.other.attribute-name {
+.entity {
   foreground: #ec7;
 }
-
-.entity.name.tag.yaml,
-.keyword.directive,
-.meta.object-literal.key,
-.meta.property-name,
-.support.type.property-name,
-.support.type.map.key,
-.text .entity.other.attribute-name {
+.entity.name.function {
+  foreground: #9ef;
+}
+.entity.name.type.anchor {
+  foreground: #7be;
+}
+.entity.name.tag.reference {
+  foreground: #eaf;
+}
+.entity.name.context {
+  foreground: #eee;
+}
+.source.yaml .entity.name {
   foreground: #b97;
 }
 
-.meta.attribute-selector,
-.string,
-.text.html {
+.entity.other.inherited-class {
+  foreground: #ec7;
+}
+.source.css .entity.other.attribute-name {
+  foreground: #b97;
+}
+.text .entity.other.attribute-name {
+  foreground: #b97;
+}
+.meta.attribute.control .entity.other.attribute-name {
+  foreground: #eaf;
+}
+.meta.attribute.input .entity.other.attribute-name {
+  foreground: #7be;
+}
+.meta.attribute.output .entity.other.attribute-name {
+  foreground: #9ef;
+}
+
+.string {
   foreground: #7e7;
+}
+
+.text.html {
+  foreground: #eee;
+}
+
+.meta.attribute-selector {
+  foreground: #7e7;
+}
+.meta.property-name, .meta.object-literal.key {
+  foreground: #b97;
+}
+.meta.function, .meta.function-call {
+  foreground: #9ef;
+}
+.meta.block, .meta.brace, .meta.function, .meta.parameters, .meta.scope.function-call {
+  foreground: #a8f;
+}
+.meta.type, .meta.selector {
+  foreground: #ec7;
 }

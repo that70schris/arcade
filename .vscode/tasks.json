@@ -2,18 +2,30 @@
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
   "version": "2.0.0",
+  "type": "shell",
   "tasks": [
     {
-      "label": "build",
-      "type": "shell",
-      "command": "ts-node ./tokens.ts",
+      "label": "scss",
+      "command": "sass",
       "args": [
+        "--no-source-map",
+        "./themes"
+      ]
+    },
+    {
+      "label": "tokens",
+      "command": "ts-node",
+      "args": [
+        "./tokens.ts",
         "./themes/Arcade.css"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+      "dependsOn": [
+        "scss"
+      ]
     },
     {
       "label": "publish",

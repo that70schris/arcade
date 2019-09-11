@@ -6,7 +6,7 @@
     <array>
       <dict>
         <key>scope</key>
-        <string>comment, punctuation.definition.string, punctuation.definition.tag, punctuation.definition.template-expression, punctuation.definition.type, punctuation.definition.typeparameters, punctuation.definition.variable, punctuation.support, punctuation.terminator</string>
+        <string>comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -15,16 +15,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.character, constant.other.placeholder, keyword.control, keyword.other.unit, storage.modifier, support.type.object.module</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>entity.name.context, keyword.operator, punctuation.accessor, punctuation.definition.entity, punctuation.definition.section, punctuation.separator, meta.block, meta.brace, meta.function, meta.parameters, meta.scope.function-call</string>
+        <string>punctuation</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -33,16 +24,16 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>case-clause keyword.control.switch, keyword.operator.expression, keyword.operator.new, keyword.control.as, storage</string>
+        <string>punctuation.definition.string, punctuation.definition.tag, punctuation.definition.template-expression, punctuation.definition.type, punctuation.definition.typeparameters, punctuation.definition.variable</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#a8f</string>
+          <string>#777</string>
         </dict>
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant.language.merge.yaml, keyword.control.conditional, keyword.control.flow, keyword.control.include, keyword.control.loop, keyword.control.switch, keyword.control.trycatch, keyword.other.debugger, meta.attribute.control entity.other.attribute-name, punctuation.definition.anchor, hello</string>
+        <string>punctuation.definition.anchor</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -51,43 +42,97 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>constant, support.constant, variable.language.this</string>
+        <string>punctuation.support, punctuation.terminator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#37c</string>
+          <string>#777</string>
         </dict>
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.tag.reference, entity.name.type.anchor, meta.attribute.input entity.other.attribute-name, support.variable, variable</string>
+        <string>storage</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#7be</string>
+          <string>#a8f</string>
         </dict>
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.function, keyword.other.special-method, meta.attribute.output entity.other.attribute-name, meta.function, meta.function-call, support.function</string>
+        <string>storage.modifier</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#9ef</string>
+          <string>#aaa</string>
         </dict>
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name, entity.other.inherited-class, meta.selector, meta.type, support.class, support.constant.math, support.type, source.css entity.other.attribute-name</string>
+        <string>keyword</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#ec7</string>
+          <string>#aaa</string>
         </dict>
       </dict>
       <dict>
         <key>scope</key>
-        <string>entity.name.tag.yaml, keyword.directive, meta.object-literal.key, meta.property-name, support.type.property-name, support.type.map.key, text entity.other.attribute-name</string>
+        <string>keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.operator.expression, keyword.operator.new</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control.conditional, keyword.control.flow, keyword.control.include, keyword.control.loop, keyword.control.switch, keyword.control.trycatch</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>case-clause keyword.control.conditional, case-clause keyword.control.flow, case-clause keyword.control.include, case-clause keyword.control.loop, case-clause keyword.control.switch, case-clause keyword.control.trycatch</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control.as</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.directive</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -96,11 +141,290 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>meta.attribute-selector, string, text.html</string>
+        <string>keyword.other.debugger</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.other.special-method</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>constant.language.merge</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.constant.math</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.class, support.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.class.property-name, support.class.map.key, support.type.property-name, support.type.map.key</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.class.object.module, support.type.object.module</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7be</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7be</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>variable.language.this</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.name.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.name.type.anchor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7be</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.name.tag.reference</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.name.context</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>source.yaml entity.name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>entity.other.inherited-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>source.css entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>text entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.attribute.control entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.attribute.input entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7be</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.attribute.output entity.other.attribute-name</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>string</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#7e7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.attribute-selector</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7e7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.property-name, meta.object-literal.key</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.function, meta.function-call</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.block, meta.brace, meta.function, meta.parameters, meta.scope.function-call</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>meta.type, meta.selector</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
         </dict>
       </dict>
     </array>
