@@ -259,7 +259,7 @@ $key: #b97;
 
     .source.nginx & {
       &.variable {
-        foreground: $string;
+        foreground: $support;
       }
     }
   }

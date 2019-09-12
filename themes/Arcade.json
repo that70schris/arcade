@@ -23,6 +23,7 @@
     "list.warningForeground": "#ef7",
     "sideBar.background": "#222",
     "statusBar.background": "#444",
+    "statusBar.noFolderBackground": "#222",
     "tab.border": "#0000"
   },
   "name": "Arcade",

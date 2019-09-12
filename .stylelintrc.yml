@@ -32,6 +32,7 @@ rules:
       'at-variables',
       'dollar-variables',
       'declarations',
+      { type: 'at-rule', name: 'media' },
       'rules',
-      { type: 'at-rule', hasBlock: true },
+      { type: 'at-rule', name: 'at-root' },
     ]

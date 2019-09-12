@@ -1,7 +1,10 @@
 <mat-expansion-panel [expanded]="status.open || false" (opened)="open()">
   <mat-expansion-panel-header>
     <span class="nowrap">Loan {{ loan.number }}</span>
-    <mat-progress-bar *ngIf="loan.pending" mode="indeterminate"></mat-progress-bar>
+    <mat-progress-bar
+      *ngIf="loan.pending"
+      mode="indeterminate"
+    ></mat-progress-bar>
     <span class="nowrap">{{ status?.name }}</span>
   </mat-expansion-panel-header>
   hello
@@ -29,7 +32,12 @@
         </tr>
         <tr>
           <th>Optional Details</th>
-          <td>{{ loan.application.details }}</td>
+          <td>
+            {{
+              loan.application.details ||
+                askdlfslkdjflkasjsdfsdfdlfkjalksdjfkjaslkdjf
+            }}
+          </td>
         </tr>
         <tr>
           <th>Submitted</th>
@@ -42,10 +50,12 @@
           <th>SSN</th>
           <td>{{ loan.application.ssn_mask | ssn }}</td>
         </tr> -->
-        <tr [class.green]="
+        <tr
+          [class.green]="
             loan.application.dob &&
             loan.application.dob == user.credit.report?.DOB
-          ">
+          "
+        >
           <th>DOB</th>
           <td>{{ loan.application.dob | date }}</td>
         </tr>
@@ -60,7 +70,6 @@
       </tbody>
     </table>
 
-    <table *ngIf="loan.offers[0]; let offer">
-    </table>
+    <table *ngIf="loan.offers[0]; let offer"></table>
   </div>
 </mat-expansion-panel>

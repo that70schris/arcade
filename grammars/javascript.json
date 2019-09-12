@@ -1,8 +1,9 @@
 {
   "scopeName": "injection.js",
-  "injectionSelector": "L:string.qouted.double",
-  "patterns": [{
-    "match": ".",
-    "name": "hello"
-  }]
+  "injectionSelector": "L:-comment",
+  "patterns": [
+    {
+
+    }
+  ]
 }

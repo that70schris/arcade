@@ -226,7 +226,7 @@
 }
 
 .source.nginx .punctuation.definition.variable {
-  foreground: #7e7;
+  foreground: #aaa;
 }
 
 .punctuation.support,

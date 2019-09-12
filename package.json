@@ -14,7 +14,10 @@
           "text.html"
         ],
         "path": "./grammars/html.json",
-        "scopeName": "injection.html"
+        "scopeName": "injection.html",
+        "embeddedLanguages": {
+          "meta.embedded.js": "source.js"
+        }
       },
       {
         "injectTo": [
@@ -25,7 +28,8 @@
       },
       {
         "injectTo": [
-          "text.html"
+          "source.ts",
+          "source.js"
         ],
         "path": "./grammars/javascript.json",
         "scopeName": "injection.js"
@@ -57,7 +61,7 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.7.2",
+  "version": "0.8.3",
   "devDependencies": {
     "@types/css": "0.0.31",
     "@types/node": "12.7.2",

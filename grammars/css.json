@@ -1,6 +1,6 @@
 {
   "scopeName": "injection.css",
-  "injectionSelector": "L:source.css",
+  "injectionSelector": "L:-comment",
   "patterns": [
     {
       "match": "(/|::)((ng-)?deep)[^\\{]+",

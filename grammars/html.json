@@ -1,6 +1,6 @@
 {
   "scopeName": "injection.html",
-  "injectionSelector": "L:text.html -comment",
+  "injectionSelector": "L:-comment",
   "repository": {
     "value": {
       "begin": "=",
@@ -12,9 +12,9 @@
       },
       "patterns": [
         {
-          "begin": "[\"]",
-          "end": "[\"]",
-          "name": "string.quoted.double.html",
+          "begin": "\"",
+          "end": "\"",
+          "name": "meta.embedded.js",
           "beginCaptures": {
             "0": {
               "name": "punctuation.definition.string.begin.html"
@@ -24,15 +24,21 @@
             "0": {
               "name": "punctuation.definition.string.end.html"
             }
-          }
+          },
+          "patterns": [
+            {
+              "include": "source.js"
+            }
+          ]
         }
       ]
     }
   },
   "patterns": [
     {
-      "begin": "\\{\\{",
-      "end": "\\}\\}",
+      "begin": "{{",
+      "end": "}}",
+      "name": "meta.embedded.js",
       "beginCaptures": {
         "0": {
           "name": "punctuation.definition.template-expression.begin.html"
@@ -45,7 +51,7 @@
       },
       "patterns": [
         {
-        "include": "source.js"
+          "include": "source.js"
         }
       ]
     },
