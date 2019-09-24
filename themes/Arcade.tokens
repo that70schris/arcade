@@ -393,6 +393,15 @@
       </dict>
       <dict>
         <key>scope</key>
+        <string>meta.function support, meta.function-call support</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
         <string>meta.block, meta.function, meta.parameters, meta.scope.function-call</string>
         <key>settings</key>
         <dict>

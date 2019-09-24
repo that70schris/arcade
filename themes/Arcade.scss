@@ -219,6 +219,10 @@ $key: #b97;
   &.function,
   &.function-call {
     color: $function;
+
+    .support {
+      color: $constant;
+    }
   }
 
   &.block,

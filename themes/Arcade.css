@@ -190,6 +190,11 @@
   color: #9ef;
 }
 
+.meta.function .support,
+.meta.function-call .support {
+  color: #37c;
+}
+
 .meta.block,
 .meta.function,
 .meta.parameters,
