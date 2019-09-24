@@ -132,7 +132,8 @@
   color: #eee;
 }
 
-.source.yaml .entity.name {
+.source.yaml .entity.name,
+.source.helm .entity.name {
   color: #b97;
 }
 

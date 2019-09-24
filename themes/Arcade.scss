@@ -146,7 +146,8 @@ $key: #b97;
       color: $puncuation;
     }
 
-    .source.yaml & {
+    .source.yaml &,
+    .source.helm & {
       color: $key;
     }
   }
