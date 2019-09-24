@@ -13,7 +13,12 @@ writeFileSync(
         scope: rule.selectors.join(', ').replace(/(^|\s)\./g, '$1'),
         settings: rule.declarations.reduce((result, declaration: Declaration) => {
           return Object.assign(result, {
-            [declaration.property]: declaration.value,
+            [(() => {
+              switch (declaration.property) {
+                case 'color': return 'foreground';
+                default: declaration.property;
+              }
+            })()]: declaration.value,
           });
         }, {}),
       };

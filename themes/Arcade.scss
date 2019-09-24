@@ -11,19 +11,19 @@ $type: #ec7;
 $key: #b97;
 
 .keyword {
-  foreground: $support;
+  color: $support;
 
   &.operator {
-    foreground: $puncuation;
+    color: $puncuation;
 
     &.expression,
     &.new {
-      foreground: $storage;
+      color: $storage;
     }
   }
 
   &.control {
-    foreground: $support;
+    color: $support;
 
     &.conditional,
     &.flow,
@@ -31,163 +31,167 @@ $key: #b97;
     &.loop,
     &.switch,
     &.trycatch {
-      foreground: $control;
+      color: $control;
 
       .case-clause & {
-        foreground: $storage;
+        color: $storage;
       }
     }
 
     &.as,
     .source.css & {
-      foreground: $storage;
+      color: $storage;
     }
   }
 
   &.directive {
-    foreground: $key;
+    color: $key;
   }
 
   &.other {
     &.debugger {
-      foreground: $control;
+      color: $control;
     }
 
     &.special-method {
-      foreground: $function;
+      color: $function;
     }
   }
 }
 
 .storage {
-  foreground: $storage;
+  color: $storage;
 
   &.modifier {
-    foreground: $support;
+    color: $support;
   }
 }
 
 .constant {
-  foreground: $constant;
+  color: $constant;
 
   &.language {
     &.merge {
-      foreground: $control;
+      color: $control;
     }
   }
 }
 
 .support {
   &.constant {
-    foreground: $constant;
+    color: $constant;
 
     &.math,
     &.mathematical-symbols {
-      foreground: $puncuation;
+      color: $puncuation;
     }
 
     &.property-value {
-      foreground: $support;
+      color: $support;
     }
   }
 
   &.class,
   &.type {
-    foreground: $type;
+    color: $type;
 
     &.property-name,
     &.map.key {
-      foreground: $key;
+      color: $key;
     }
 
     &.object.module {
-      foreground: $support;
+      color: $support;
     }
   }
 
   &.function {
-    foreground: $function;
+    color: $function;
   }
 
   &.variable {
-    foreground: $variable;
+    color: $variable;
   }
 }
 
 .variable {
-  foreground: $variable;
+  color: $variable;
 
   &.language {
-    foreground: $constant;
+    color: $constant;
   }
 }
 
 .entity {
-  foreground: $type;
+  color: $type;
 
   &.name {
     &.function {
-      foreground: $function;
+      color: $function;
     }
 
     &.type {
       &.anchor {
-        foreground: $variable;
+        color: $variable;
       }
     }
 
     &.tag {
       &.reference {
-        foreground: $constant;
+        color: $constant;
       }
     }
 
     &.context {
-      foreground: $puncuation;
+      color: $puncuation;
     }
 
     .source.yaml & {
-      foreground: $key;
+      color: $key;
     }
   }
 
   &.other {
+    &.document {
+      color: $puncuation;
+    }
+
     &.inherited-class {
-      foreground: $type;
+      color: $type;
     }
 
     &.attribute-name {
       $this: &;
 
       &.attribute {
-        foreground: $key;
+        color: $key;
       }
 
       &.parent-selector-suffix {
         .punctuation {
-          foreground: $type;
+          color: $type;
         }
       }
 
       .source.css & {
-        foreground: $type;
+        color: $type;
       }
 
       .text & {
-        foreground: $key;
+        color: $key;
       }
 
       @at-root .meta.attribute {
         &.control #{$this} {
-          foreground: $control;
+          color: $control;
         }
 
         &.input #{$this} {
-          foreground: $variable;
+          color: $variable;
         }
 
         &.output #{$this} {
-          foreground: $function;
+          color: $function;
         }
       }
     }
@@ -196,46 +200,46 @@ $key: #b97;
 
 .text {
   &.html {
-    foreground: $puncuation;
+    color: $puncuation;
   }
 }
 
 .meta {
   &.attribute {
     &-selector {
-      foreground: $string;
+      color: $string;
     }
   }
 
   &.property-name,
   &.object-literal.key {
-    foreground: $key;
+    color: $key;
   }
 
   &.function,
   &.function-call {
-    foreground: $function;
+    color: $function;
   }
 
   &.block,
   &.function,
   &.parameters,
   &.scope.function-call {
-    foreground: $storage;
+    color: $storage;
   }
 
   &.brace {
-    foreground: $puncuation;
+    color: $puncuation;
   }
 
   &.type,
   &.selector {
-    foreground: $type;
+    color: $type;
   }
 }
 
 .punctuation {
-  foreground: $puncuation;
+  color: $puncuation;
 
   &.definition {
     &.comment,
@@ -246,42 +250,42 @@ $key: #b97;
     &.type,
     &.typeparameters,
     &.variable {
-      foreground: $comment;
+      color: $comment;
     }
 
     &.anchor {
-      foreground: $control;
+      color: $control;
     }
 
     &.constant {
-      foreground: $support;
+      color: $support;
     }
 
     .source.nginx & {
       &.variable {
-        foreground: $support;
+        color: $support;
       }
     }
   }
 
   &.support,
   &.terminator {
-    foreground: $comment;
+    color: $comment;
   }
 }
 
 .anchor {
-  foreground: $control;
+  color: $control;
 }
 
 .comment {
-  foreground: $comment;
+  color: $comment;
 }
 
 .string {
-  foreground: $string;
+  color: $string;
 
   &.ipaddress {
-    foreground: $constant;
+    color: $constant;
   }
 }

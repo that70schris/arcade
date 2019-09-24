@@ -1,18 +1,18 @@
 .keyword {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .keyword.operator {
-  foreground: #eee;
+  color: #eee;
 }
 
 .keyword.operator.expression,
 .keyword.operator.new {
-  foreground: #a8f;
+  color: #a8f;
 }
 
 .keyword.control {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .keyword.control.conditional,
@@ -21,7 +21,7 @@
 .keyword.control.loop,
 .keyword.control.switch,
 .keyword.control.trycatch {
-  foreground: #eaf;
+  color: #eaf;
 }
 
 .case-clause .keyword.control.conditional,
@@ -30,180 +30,184 @@
 .case-clause .keyword.control.loop,
 .case-clause .keyword.control.switch,
 .case-clause .keyword.control.trycatch {
-  foreground: #a8f;
+  color: #a8f;
 }
 
 .keyword.control.as,
 .source.css .keyword.control {
-  foreground: #a8f;
+  color: #a8f;
 }
 
 .keyword.directive {
-  foreground: #b97;
+  color: #b97;
 }
 
 .keyword.other.debugger {
-  foreground: #eaf;
+  color: #eaf;
 }
 
 .keyword.other.special-method {
-  foreground: #9ef;
+  color: #9ef;
 }
 
 .storage {
-  foreground: #a8f;
+  color: #a8f;
 }
 
 .storage.modifier {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .constant {
-  foreground: #37c;
+  color: #37c;
 }
 
 .constant.language.merge {
-  foreground: #eaf;
+  color: #eaf;
 }
 
 .support.constant {
-  foreground: #37c;
+  color: #37c;
 }
 
 .support.constant.math,
 .support.constant.mathematical-symbols {
-  foreground: #eee;
+  color: #eee;
 }
 
 .support.constant.property-value {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .support.class,
 .support.type {
-  foreground: #ec7;
+  color: #ec7;
 }
 
 .support.class.property-name,
 .support.class.map.key,
 .support.type.property-name,
 .support.type.map.key {
-  foreground: #b97;
+  color: #b97;
 }
 
 .support.class.object.module,
 .support.type.object.module {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .support.function {
-  foreground: #9ef;
+  color: #9ef;
 }
 
 .support.variable {
-  foreground: #7be;
+  color: #7be;
 }
 
 .variable {
-  foreground: #7be;
+  color: #7be;
 }
 
 .variable.language {
-  foreground: #37c;
+  color: #37c;
 }
 
 .entity {
-  foreground: #ec7;
+  color: #ec7;
 }
 
 .entity.name.function {
-  foreground: #9ef;
+  color: #9ef;
 }
 
 .entity.name.type.anchor {
-  foreground: #7be;
+  color: #7be;
 }
 
 .entity.name.tag.reference {
-  foreground: #37c;
+  color: #37c;
 }
 
 .entity.name.context {
-  foreground: #eee;
+  color: #eee;
 }
 
 .source.yaml .entity.name {
-  foreground: #b97;
+  color: #b97;
+}
+
+.entity.other.document {
+  color: #eee;
 }
 
 .entity.other.inherited-class {
-  foreground: #ec7;
+  color: #ec7;
 }
 
 .entity.other.attribute-name.attribute {
-  foreground: #b97;
+  color: #b97;
 }
 
 .entity.other.attribute-name.parent-selector-suffix .punctuation {
-  foreground: #ec7;
+  color: #ec7;
 }
 
 .source.css .entity.other.attribute-name {
-  foreground: #ec7;
+  color: #ec7;
 }
 
 .text .entity.other.attribute-name {
-  foreground: #b97;
+  color: #b97;
 }
 
 .meta.attribute.control .entity.other.attribute-name {
-  foreground: #eaf;
+  color: #eaf;
 }
 
 .meta.attribute.input .entity.other.attribute-name {
-  foreground: #7be;
+  color: #7be;
 }
 
 .meta.attribute.output .entity.other.attribute-name {
-  foreground: #9ef;
+  color: #9ef;
 }
 
 .text.html {
-  foreground: #eee;
+  color: #eee;
 }
 
 .meta.attribute-selector {
-  foreground: #7e7;
+  color: #7e7;
 }
 
 .meta.property-name,
 .meta.object-literal.key {
-  foreground: #b97;
+  color: #b97;
 }
 
 .meta.function,
 .meta.function-call {
-  foreground: #9ef;
+  color: #9ef;
 }
 
 .meta.block,
 .meta.function,
 .meta.parameters,
 .meta.scope.function-call {
-  foreground: #a8f;
+  color: #a8f;
 }
 
 .meta.brace {
-  foreground: #eee;
+  color: #eee;
 }
 
 .meta.type,
 .meta.selector {
-  foreground: #ec7;
+  color: #ec7;
 }
 
 .punctuation {
-  foreground: #eee;
+  color: #eee;
 }
 
 .punctuation.definition.comment,
@@ -214,38 +218,38 @@
 .punctuation.definition.type,
 .punctuation.definition.typeparameters,
 .punctuation.definition.variable {
-  foreground: #777;
+  color: #777;
 }
 
 .punctuation.definition.anchor {
-  foreground: #eaf;
+  color: #eaf;
 }
 
 .punctuation.definition.constant {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .source.nginx .punctuation.definition.variable {
-  foreground: #aaa;
+  color: #aaa;
 }
 
 .punctuation.support,
 .punctuation.terminator {
-  foreground: #777;
+  color: #777;
 }
 
 .anchor {
-  foreground: #eaf;
+  color: #eaf;
 }
 
 .comment {
-  foreground: #777;
+  color: #777;
 }
 
 .string {
-  foreground: #7e7;
+  color: #7e7;
 }
 
 .string.ipaddress {
-  foreground: #37c;
+  color: #37c;
 }

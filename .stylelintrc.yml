@@ -14,7 +14,6 @@ rules:
   media-feature-name-no-unknown: true
   no-duplicate-at-import-rules: true
   no-duplicate-selectors: true
-  property-no-unknown: [true, { ignoreProperties: 'foreground' }]
   property-no-vendor-prefix: true
   rule-empty-line-before:
     ['always', { except: ['first-nested', 'after-single-line-comment'] }]
