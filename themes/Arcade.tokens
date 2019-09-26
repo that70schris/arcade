@@ -6,43 +6,7 @@
     <array>
       <dict>
         <key>scope</key>
-        <string>keyword</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.operator</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#eee</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.operator.expression, keyword.operator.new</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#a8f</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.control</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.control.conditional, keyword.control.flow, keyword.control.include, keyword.control.loop, keyword.control.switch, keyword.control.trycatch</string>
+        <string>anchor</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -51,65 +15,11 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>case-clause keyword.control.conditional, case-clause keyword.control.flow, case-clause keyword.control.include, case-clause keyword.control.loop, case-clause keyword.control.switch, case-clause keyword.control.trycatch</string>
+        <string>comment</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#a8f</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.control.as, source.css keyword.control</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#a8f</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.directive</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#b97</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.other.debugger</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#eaf</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>keyword.other.special-method</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#9ef</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>storage</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#a8f</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>storage.modifier</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
+          <string>#777</string>
         </dict>
       </dict>
       <dict>
@@ -123,101 +33,20 @@
       </dict>
       <dict>
         <key>scope</key>
+        <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#777</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
         <string>constant.language.merge</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#eaf</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.constant</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#37c</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.constant.math, support.constant.mathematical-symbols</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#eee</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.constant.property-value</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.class, support.type</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#ec7</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.class.property-name, support.class.map.key, support.type.property-name, support.type.map.key</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#b97</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.class.object.module, support.type.object.module</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#aaa</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.function</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#9ef</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>support.variable</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#7be</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>variable</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#7be</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>scope</key>
-        <string>variable.language</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#37c</string>
         </dict>
       </dict>
       <dict>
@@ -357,11 +186,92 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>text.html</string>
+        <string>keyword</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.operator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.operator.expression, keyword.operator.new</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control.conditional, keyword.control.flow, keyword.control.include, keyword.control.loop, keyword.control.switch, keyword.control.trycatch</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>case-clause keyword.control.conditional, case-clause keyword.control.flow, case-clause keyword.control.include, case-clause keyword.control.loop, case-clause keyword.control.switch, case-clause keyword.control.trycatch</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control.as, source.css keyword.control</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a8f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.directive</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.other.debugger</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eaf</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.other.special-method</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
         </dict>
       </dict>
       <dict>
@@ -402,7 +312,7 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>meta.block, meta.function, meta.parameters, meta.scope.function-call</string>
+        <string>meta.block, meta.function, meta.parameters</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -483,20 +393,20 @@
       </dict>
       <dict>
         <key>scope</key>
-        <string>anchor</string>
+        <string>storage</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#eaf</string>
+          <string>#a8f</string>
         </dict>
       </dict>
       <dict>
         <key>scope</key>
-        <string>comment</string>
+        <string>storage.modifier</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#777</string>
+          <string>#aaa</string>
         </dict>
       </dict>
       <dict>
@@ -511,6 +421,105 @@
       <dict>
         <key>scope</key>
         <string>string.ipaddress</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#37c</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.constant.math, support.constant.mathematical-symbols</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.constant.property-value</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.class, support.type</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ec7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.class.property-name, support.class.map.key, support.type.property-name, support.type.map.key</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#b97</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.class.object.module, support.type.object.module</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#aaa</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.function</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9ef</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>support.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7be</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>text.html</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#eee</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7be</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>variable.language</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>

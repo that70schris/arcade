@@ -10,115 +10,27 @@ $function: #9ef;
 $type: #ec7;
 $key: #b97;
 
-.keyword {
-  color: $support;
-
-  &.operator {
-    color: $puncuation;
-
-    &.expression,
-    &.new {
-      color: $storage;
-    }
-  }
-
-  &.control {
-    color: $support;
-
-    &.conditional,
-    &.flow,
-    &.include,
-    &.loop,
-    &.switch,
-    &.trycatch {
-      color: $control;
-
-      .case-clause & {
-        color: $storage;
-      }
-    }
-
-    &.as,
-    .source.css & {
-      color: $storage;
-    }
-  }
-
-  &.directive {
-    color: $key;
-  }
-
-  &.other {
-    &.debugger {
-      color: $control;
-    }
-
-    &.special-method {
-      color: $function;
-    }
-  }
+.anchor {
+  color: $control;
 }
 
-.storage {
-  color: $storage;
-
-  &.modifier {
-    color: $support;
-  }
+.comment {
+  color: $comment;
 }
 
 .constant {
   color: $constant;
 
+  &.character {
+    &.escape {
+      color: $comment;
+    }
+  }
+
   &.language {
     &.merge {
       color: $control;
     }
-  }
-}
-
-.support {
-  &.constant {
-    color: $constant;
-
-    &.math,
-    &.mathematical-symbols {
-      color: $puncuation;
-    }
-
-    &.property-value {
-      color: $support;
-    }
-  }
-
-  &.class,
-  &.type {
-    color: $type;
-
-    &.property-name,
-    &.map.key {
-      color: $key;
-    }
-
-    &.object.module {
-      color: $support;
-    }
-  }
-
-  &.function {
-    color: $function;
-  }
-
-  &.variable {
-    color: $variable;
-  }
-}
-
-.variable {
-  color: $variable;
-
-  &.language {
-    color: $constant;
   }
 }
 
@@ -199,9 +111,52 @@ $key: #b97;
   }
 }
 
-.text {
-  &.html {
+.keyword {
+  color: $support;
+
+  &.operator {
     color: $puncuation;
+
+    &.expression,
+    &.new {
+      color: $storage;
+    }
+  }
+
+  &.control {
+    color: $support;
+
+    &.conditional,
+    &.flow,
+    &.include,
+    &.loop,
+    &.switch,
+    &.trycatch {
+      color: $control;
+
+      .case-clause & {
+        color: $storage;
+      }
+    }
+
+    &.as,
+    .source.css & {
+      color: $storage;
+    }
+  }
+
+  &.directive {
+    color: $key;
+  }
+
+  &.other {
+    &.debugger {
+      color: $control;
+    }
+
+    &.special-method {
+      color: $function;
+    }
   }
 }
 
@@ -228,8 +183,7 @@ $key: #b97;
 
   &.block,
   &.function,
-  &.parameters,
-  &.scope.function-call {
+  &.parameters {
     color: $storage;
   }
 
@@ -279,18 +233,69 @@ $key: #b97;
   }
 }
 
-.anchor {
-  color: $control;
-}
+.storage {
+  color: $storage;
 
-.comment {
-  color: $comment;
+  &.modifier {
+    color: $support;
+  }
 }
 
 .string {
   color: $string;
 
   &.ipaddress {
+    color: $constant;
+  }
+}
+
+.support {
+  &.constant {
+    color: $constant;
+
+    &.math,
+    &.mathematical-symbols {
+      color: $puncuation;
+    }
+
+    &.property-value {
+      color: $support;
+    }
+  }
+
+  &.class,
+  &.type {
+    color: $type;
+
+    &.property-name,
+    &.map.key {
+      color: $key;
+    }
+
+    &.object.module {
+      color: $support;
+    }
+  }
+
+  &.function {
+    color: $function;
+  }
+
+  &.variable {
+    color: $variable;
+  }
+}
+
+.text {
+  &.html {
+    color: $puncuation;
+  }
+}
+
+.variable {
+  color: $variable;
+
+  &.language {
     color: $constant;
   }
 }

@@ -1,115 +1,21 @@
-.keyword {
-  color: #aaa;
-}
-
-.keyword.operator {
-  color: #eee;
-}
-
-.keyword.operator.expression,
-.keyword.operator.new {
-  color: #a8f;
-}
-
-.keyword.control {
-  color: #aaa;
-}
-
-.keyword.control.conditional,
-.keyword.control.flow,
-.keyword.control.include,
-.keyword.control.loop,
-.keyword.control.switch,
-.keyword.control.trycatch {
+.anchor {
   color: #eaf;
 }
 
-.case-clause .keyword.control.conditional,
-.case-clause .keyword.control.flow,
-.case-clause .keyword.control.include,
-.case-clause .keyword.control.loop,
-.case-clause .keyword.control.switch,
-.case-clause .keyword.control.trycatch {
-  color: #a8f;
-}
-
-.keyword.control.as,
-.source.css .keyword.control {
-  color: #a8f;
-}
-
-.keyword.directive {
-  color: #b97;
-}
-
-.keyword.other.debugger {
-  color: #eaf;
-}
-
-.keyword.other.special-method {
-  color: #9ef;
-}
-
-.storage {
-  color: #a8f;
-}
-
-.storage.modifier {
-  color: #aaa;
+.comment {
+  color: #777;
 }
 
 .constant {
   color: #37c;
 }
 
+.constant.character.escape {
+  color: #777;
+}
+
 .constant.language.merge {
   color: #eaf;
-}
-
-.support.constant {
-  color: #37c;
-}
-
-.support.constant.math,
-.support.constant.mathematical-symbols {
-  color: #eee;
-}
-
-.support.constant.property-value {
-  color: #aaa;
-}
-
-.support.class,
-.support.type {
-  color: #ec7;
-}
-
-.support.class.property-name,
-.support.class.map.key,
-.support.type.property-name,
-.support.type.map.key {
-  color: #b97;
-}
-
-.support.class.object.module,
-.support.type.object.module {
-  color: #aaa;
-}
-
-.support.function {
-  color: #9ef;
-}
-
-.support.variable {
-  color: #7be;
-}
-
-.variable {
-  color: #7be;
-}
-
-.variable.language {
-  color: #37c;
 }
 
 .entity {
@@ -173,8 +79,56 @@
   color: #9ef;
 }
 
-.text.html {
+.keyword {
+  color: #aaa;
+}
+
+.keyword.operator {
   color: #eee;
+}
+
+.keyword.operator.expression,
+.keyword.operator.new {
+  color: #a8f;
+}
+
+.keyword.control {
+  color: #aaa;
+}
+
+.keyword.control.conditional,
+.keyword.control.flow,
+.keyword.control.include,
+.keyword.control.loop,
+.keyword.control.switch,
+.keyword.control.trycatch {
+  color: #eaf;
+}
+
+.case-clause .keyword.control.conditional,
+.case-clause .keyword.control.flow,
+.case-clause .keyword.control.include,
+.case-clause .keyword.control.loop,
+.case-clause .keyword.control.switch,
+.case-clause .keyword.control.trycatch {
+  color: #a8f;
+}
+
+.keyword.control.as,
+.source.css .keyword.control {
+  color: #a8f;
+}
+
+.keyword.directive {
+  color: #b97;
+}
+
+.keyword.other.debugger {
+  color: #eaf;
+}
+
+.keyword.other.special-method {
+  color: #9ef;
 }
 
 .meta.attribute-selector {
@@ -198,8 +152,7 @@
 
 .meta.block,
 .meta.function,
-.meta.parameters,
-.meta.scope.function-call {
+.meta.parameters {
   color: #a8f;
 }
 
@@ -244,12 +197,12 @@
   color: #777;
 }
 
-.anchor {
-  color: #eaf;
+.storage {
+  color: #a8f;
 }
 
-.comment {
-  color: #777;
+.storage.modifier {
+  color: #aaa;
 }
 
 .string {
@@ -257,5 +210,55 @@
 }
 
 .string.ipaddress {
+  color: #37c;
+}
+
+.support.constant {
+  color: #37c;
+}
+
+.support.constant.math,
+.support.constant.mathematical-symbols {
+  color: #eee;
+}
+
+.support.constant.property-value {
+  color: #aaa;
+}
+
+.support.class,
+.support.type {
+  color: #ec7;
+}
+
+.support.class.property-name,
+.support.class.map.key,
+.support.type.property-name,
+.support.type.map.key {
+  color: #b97;
+}
+
+.support.class.object.module,
+.support.type.object.module {
+  color: #aaa;
+}
+
+.support.function {
+  color: #9ef;
+}
+
+.support.variable {
+  color: #7be;
+}
+
+.text.html {
+  color: #eee;
+}
+
+.variable {
+  color: #7be;
+}
+
+.variable.language {
   color: #37c;
 }
