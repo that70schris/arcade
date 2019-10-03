@@ -3,7 +3,7 @@
   "injectionSelector": "L:-comment",
   "patterns": [
     {
-      "match": "(/|::)((ng-)?deep)[^\\{]+",
+      "match": "(/|::)((ng-)?deep)(/| )[^\\{]+",
       "name": "entity.other.attribute-name",
       "captures": {
         "1": {
@@ -11,6 +11,9 @@
         },
         "2": {
           "name": "anchor"
+        },
+        "3": {
+          "name": "punctuation"
         }
       }
     }
