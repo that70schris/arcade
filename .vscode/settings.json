@@ -5,8 +5,8 @@
     }
   },
   "workbench.colorCustomizations": {
-    "statusBar.background": "#7e7",
-    "statusBar.foreground": "#444",
-    "statusBarItem.hoverBackground": "#6a6"
+    "statusBar.background": "#fe0",
+    "statusBar.foreground": "#000",
+    "statusBarItem.hoverBackground": "#fb0",
   }
 }
