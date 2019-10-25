@@ -12,24 +12,23 @@
       },
       "patterns": [
         {
-          "begin": "\"",
-          "end": "\"",
-          "name": "meta.embedded.js",
-          "beginCaptures": {
-            "0": {
+          "match": "(\")(.+)(\")",
+          "captures": {
+            "1": {
               "name": "punctuation.definition.string.begin.html"
-            }
-          },
-          "endCaptures": {
-            "0": {
+            },
+            "2": {
+              "name": "meta.embedded.js",
+              "patterns": [
+                {
+                  "include": "source.js"
+                }
+              ]
+            },
+            "3": {
               "name": "punctuation.definition.string.end.html"
             }
-          },
-          "patterns": [
-            {
-              "include": "source.js"
-            }
-          ]
+          }
         }
       ]
     }
