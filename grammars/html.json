@@ -12,18 +12,35 @@
       },
       "patterns": [
         {
-          "match": "(\")(.+)(\")",
+          "begin": "\"",
+          "end": "\"",
+          "name": "string",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.string.begin.html"
+            }
+          },
+          "endCaptures": {
+            "0": {
+              "name": "punctuation.definition.string.end.html"
+            }
+          },
+          "patterns": [
+            {
+
+            }
+          ]
+        }, {
+          "match": "(\")([^\"]+)(\")",
           "captures": {
             "1": {
               "name": "punctuation.definition.string.begin.html"
             },
             "2": {
               "name": "meta.embedded.js",
-              "patterns": [
-                {
-                  "include": "source.js"
-                }
-              ]
+              "patterns": [{
+                "include": "source.js"
+              }]
             },
             "3": {
               "name": "punctuation.definition.string.end.html"
