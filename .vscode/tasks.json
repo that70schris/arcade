@@ -5,31 +5,15 @@
   "type": "shell",
   "tasks": [
     {
-      "label": "scss",
-      "command": "sass",
-      "args": [
-        "--no-source-map",
-        "./themes"
-      ]
-    },
-    {
-      "label": "tokens",
-      "command": "ts-node",
-      "args": [
-        "./tokens.ts",
-        "./themes/Arcade.css"
-      ],
+      "label": "make",
+      "command": "make",
       "group": {
         "kind": "build",
         "isDefault": true
-      },
-      "dependsOn": [
-        "scss"
-      ]
+      }
     },
     {
       "label": "publish",
-      "type": "shell",
       "command": "vsce publish patch",
       "problemMatcher": [],
     }

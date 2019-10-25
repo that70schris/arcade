@@ -13,52 +13,33 @@
         "injectTo": [
           "text.html"
         ],
-        "path": "./grammars/html.json",
+        "path": "./dist/html.json",
         "scopeName": "injection.html"
       },
       {
         "injectTo": [
           "source.css"
         ],
-        "path": "./grammars/css.json",
+        "path": "./dist/css.json",
         "scopeName": "injection.css"
-      },
-      {
-        "injectTo": [
-          "source.ts",
-          "source.js"
-        ],
-        "path": "./grammars/javascript.json",
-        "scopeName": "injection.js"
       },
       {
         "injectTo": [
           "source.nginx"
         ],
-        "path": "./grammars/nginx.json",
+        "path": "./dist/nginx.json",
         "scopeName": "injection.nginx"
       }
     ],
     "themes": [
       {
         "label": "Arcade",
-        "path": "./themes/Arcade.json",
+        "path": "./dist/Arcade.json",
         "uiTheme": "vs-dark"
       }
     ]
   },
   "description": "Somewhere between neon and pastel",
-  "displayName": "Arcade",
-  "engines": {
-    "vscode": "^1.36.0"
-  },
-  "name": "arcade",
-  "publisher": "that70schris",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/that70schris/arcade"
-  },
-  "version": "0.9.3",
   "devDependencies": {
     "@types/css": "0.0.31",
     "@types/node": "12.7.2",
@@ -78,5 +59,16 @@
     "ts-node": "8.3.0",
     "tslint": "5.20.0",
     "typescript": "3.6.2"
-  }
+  },
+  "displayName": "Arcade",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "name": "arcade",
+  "publisher": "that70schris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/that70schris/arcade"
+  },
+  "version": "0.9.6"
 }
