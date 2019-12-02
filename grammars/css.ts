@@ -5,8 +5,8 @@ writeFileSync('./dist/css.json', JSON.stringify({
   injectionSelector: 'L:-comment',
   patterns: [
     {
-      match: '(/|::)((ng-)?deep)(/| )[^\\{]+',
-      name: 'entity.other.attribute-name',
+      match: '(/|::)((?:ng-)?deep)(/?)',
+      // name: 'entity.other.attribute-name',
       captures: {
         1: {
           name: 'punctuation',
