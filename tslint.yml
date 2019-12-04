@@ -7,7 +7,6 @@ rules:
   label-position: true
   member-access: false
   no-arg: true
-  no-bitwise: true
   no-construct: true
   no-empty: false
   no-empty-interface: true
@@ -17,9 +16,6 @@ rules:
   no-string-literal: false
   no-switch-case-fall-through: true
   object-literal-sort-keys: false
-  # only-arrow-functions: true
-  semicolon: true
-  trailing-comma: [true, { multiline: 'always', singleline: 'never' }]
   typedef-whitespace:
     [
       true,
