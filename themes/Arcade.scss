@@ -50,7 +50,11 @@ $key: #b97;
 
     &.tag {
       &.reference {
-        color: $constant;
+        color: $variable;
+      }
+
+      &.wildcard {
+        color: $storage;
       }
     }
 
@@ -88,6 +92,10 @@ $key: #b97;
 
       .source.css & {
         color: $type;
+
+        &.pseudo-element {
+          color: $support;
+        }
       }
 
       .text & {

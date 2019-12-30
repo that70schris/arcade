@@ -6,6 +6,9 @@ env:
   node: true
   es6: true
 
+plugins:
+  - '@typescript-eslint'
+
 rules:
   array-element-newline: [1, consistent]
   array-bracket-newline: [1, consistent]
@@ -27,6 +30,7 @@ rules:
   constructor-super: 2
   curly: [1, all]
   dot-notation: 1
+  eol-last: 1
   for-direction: 2
   func-call-spacing: [1, never]
   function-paren-newline: [1, consistent]
@@ -129,3 +133,17 @@ rules:
   use-isnan: 2
   wrap-iife: [1, inside]
   yoda: 1
+
+  '@typescript-eslint/ban-ts-ignore': 2
+  '@typescript-eslint/type-annotation-spacing': 1
+  '@typescript-eslint/class-name-casing': 1
+  '@typescript-eslint/no-empty-interface': 1
+  '@typescript-eslint/consistent-type-definitions': [1, interface]
+  # callable-types: true
+  # label-position: true
+  # member-access: false
+  # no-host-metadata-property: true
+  # no-inputs-metadata-property: true
+  # no-outputs-metadata-property: true
+  # no-switch-case-fall-through: true
+  # unified-signatures: true

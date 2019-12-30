@@ -57,7 +57,6 @@
     "stylelint-prettier": "1.1.2",
     "stylelint-scss": "3.13.0",
     "ts-node": "8.5.4",
-    "tslint": "5.20.1",
     "typescript": "3.7.4",
     "vsce": "1.71.0"
   },
@@ -71,5 +70,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.9.44"
+  "version": "0.9.48"
 }
