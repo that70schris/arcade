@@ -1,8 +1,8 @@
 import { writeFileSync } from 'fs';
 
 writeFileSync('./dist/html.json', JSON.stringify({
-  scopeName: 'injection.html',
   injectionSelector: 'L:-comment',
+  scopeName: 'injection.html',
   repository: {
     value: {
       begin: '=',

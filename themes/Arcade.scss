@@ -8,6 +8,7 @@ $constant: #37c;
 $variable: #7be;
 $function: #9ef;
 $type: #ec7;
+$pseudo: #e97;
 $key: #b97;
 
 .anchor {
@@ -53,9 +54,9 @@ $key: #b97;
         color: $variable;
       }
 
-      &.wildcard {
-        color: $storage;
-      }
+      // &.wildcard {
+      //   color: $control;
+      // }
     }
 
     &.context {
@@ -93,9 +94,13 @@ $key: #b97;
       .source.css & {
         color: $type;
 
-        &.pseudo-element {
-          color: $support;
-        }
+        // &.pseudo-element {
+        //   color: $pseudo;
+        // }
+
+        // &.pseudo-class {
+        //   color: $pseudo;
+        // }
       }
 
       .text & {
@@ -158,6 +163,10 @@ $key: #b97;
   }
 
   &.other {
+    &.important {
+      color: $puncuation;
+    }
+
     &.debugger {
       color: $control;
     }

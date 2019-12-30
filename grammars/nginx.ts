@@ -1,8 +1,8 @@
 import { writeFileSync } from 'fs';
 
 writeFileSync('./dist/nginx.json', JSON.stringify({
-  scopeName: 'injection.nginx',
   injectionSelector: 'L:-comment',
+  scopeName: 'injection.nginx',
   patterns: [{
     match: '(@)\\w+',
     name: 'anchor',
