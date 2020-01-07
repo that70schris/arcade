@@ -5,7 +5,7 @@ writeFileSync('./dist/css.json', JSON.stringify({
   scopeName: 'injection.css',
   patterns: [
     {
-      match: '(cursor|content):',
+      match: 'cursor:',
       captures: {
         1: {
           name: 'support.type.property-name'
