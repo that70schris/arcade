@@ -61,12 +61,18 @@ writeFileSync('./dist/html.json', JSON.stringify({
       ],
     },
     {
-      begin: '\\[[\\w\\.]+\\](?==)',
+      begin: '(\\[)([\\w\\.]+)(\\])(?==)',
       end: '(?=\\s*+[^=\\s])',
       name: 'meta.attribute.input.html',
       beginCaptures: {
-        0: {
+        1: {
+          name: 'meta.brace.square',
+        },
+        2: {
           name: 'entity.other.attribute-name.html',
+        },
+        3: {
+          name: 'meta.brace.square',
         },
       },
       patterns: [
@@ -76,12 +82,24 @@ writeFileSync('./dist/html.json', JSON.stringify({
       ],
     },
     {
-      begin: '\\[?\\(\\w+\\)\\]?(?==)',
+      begin: '(\\[?)(\\()(\\w+)(\\))(\\]?)(?==)',
       end: '(?=\\s*+[^=\\s])',
       name: 'meta.attribute.output.html',
       beginCaptures: {
-        0: {
+        1: {
+          name: 'meta.brace.square',
+        },
+        2: {
+          name: 'meta.brace.round',
+        },
+        3: {
           name: 'entity.other.attribute-name.html',
+        },
+        4: {
+          name: 'meta.brace.round',
+        },
+        5: {
+          name: 'meta.brace.square',
         },
       },
       patterns: [
@@ -91,11 +109,14 @@ writeFileSync('./dist/html.json', JSON.stringify({
       ],
     },
     {
-      begin: '\\*\\w+',
+      begin: '(\\*)(\\w+)',
       end: '(?=\\s*+[^=\\s])',
       name: 'meta.attribute.control.html',
       beginCaptures: {
-        0: {
+        1: {
+          name: 'puncuation',
+        },
+        2: {
           name: 'entity.other.attribute-name.html',
         },
       },
