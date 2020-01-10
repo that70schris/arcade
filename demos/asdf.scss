@@ -17,11 +17,17 @@
 .support.type.object.module {
   foreground: #aaa;
 
-  ::ng-deep {
+  /deep/ asdf {
   }
 
   ::ng-deep asdf .fdsfsdf {
+    &:after {
+      content: attr(data) ': ';
+    }
   }
+}
+
+a {
 }
 
 .entity.name.context,

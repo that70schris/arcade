@@ -5,16 +5,17 @@ writeFileSync('./dist/css.json', JSON.stringify({
   scopeName: 'injection.css',
   patterns: [
     {
-      match: 'cursor:',
+      match: '(cursor|content)(?=:)',
       captures: {
         1: {
-          name: 'support.type.property-name'
-        }
-      }
+          name: 'meta.property-name'
+        },
+      },
     },
     {
-      match: '(/|::)((?:ng-)?deep)(/?)',
-      captures: {
+      begin: '(/|::)((?:ng-)?deep)(/)?',
+      end: '{',
+      beginCaptures: {
         1: {
           name: 'punctuation',
         },
@@ -25,6 +26,9 @@ writeFileSync('./dist/css.json', JSON.stringify({
           name: 'punctuation',
         },
       },
+      patterns: [{
+        include: 'source.css'
+      }],
     },
   ],
 }));

@@ -1,9 +1,4 @@
 {
-  "[scss]": {
-    "editor.codeActionsOnSave": {
-
-    }
-  },
   "workbench.colorCustomizations": {
     "statusBar.background": "#fe0",
     "statusBar.foreground": "#000",
