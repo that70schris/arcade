@@ -23,6 +23,10 @@
   ::ng-deep asdf .fdsfsdf {
     &:after {
       content: attr(data) ': ';
+      content: url(/assets/icons/check.svg);
+      content: url(assets/icons/check.svg);
+      content: url(./assets/icons/check.svg);
+      content: url(../assets/icons/check.svg);
     }
   }
 }

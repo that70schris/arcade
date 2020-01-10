@@ -13,22 +13,33 @@ writeFileSync('./dist/css.json', JSON.stringify({
       },
     },
     {
-      begin: '(/|::)((?:ng-)?deep)(/)?',
+      begin: '(?<=/|::)((?:ng-)?deep)/?',
       end: '{',
       beginCaptures: {
         1: {
-          name: 'punctuation',
-        },
-        2: {
           name: 'anchor',
-        },
-        3: {
-          name: 'punctuation',
         },
       },
       patterns: [{
         include: 'source.css'
       }],
     },
+    {
+      begin: '(?<=url)',
+      end: '\\)',
+      name: 'string',
+      // patterns: [{
+      //   match: '.+',
+      //   name: 'string',
+      // }],
+    },
+    {
+      begin: '(?<=attr)\\(',
+      end: '\\)',
+      patterns: [{
+        match: '.*',
+        name: 'entity.other.attribute-name',
+      }],
+    }
   ],
 }));
