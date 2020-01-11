@@ -1,4 +1,5 @@
 import { writeFileSync } from 'fs';
+import './sugar';
 
 writeFileSync('./dist/html.json', JSON.stringify({
   injectionSelector: 'L:-comment',
@@ -6,7 +7,7 @@ writeFileSync('./dist/html.json', JSON.stringify({
   repository: {
     value: {
       begin: '=',
-      end: '(?<=[^\\s=])(?!\\s*=)|(?=/?>)',
+      end: /(?<=[^\s=])(?!\s*=)|(?=\/?>)/,
       beginCaptures: {
         0: {
           name: 'punctuation.separator.html',
@@ -14,8 +15,8 @@ writeFileSync('./dist/html.json', JSON.stringify({
       },
       patterns: [
         {
-          begin: '"',
-          end: '"',
+          begin: /"/,
+          end: /"/,
           name: 'string',
           beginCaptures: {
             0: {
@@ -27,22 +28,14 @@ writeFileSync('./dist/html.json', JSON.stringify({
               name: 'punctuation.definition.string.end.html',
             },
           },
-          patterns: [
-            {
-              match: '[^"]+',
-              patterns: [{
-                include: 'source.js',
-              }],
-            },
-          ],
         },
       ],
     },
   },
   patterns: [
     {
-      begin: '{{',
-      end: '}}',
+      begin: /{{/,
+      end: /}}/,
       name: 'meta.embedded.js',
       beginCaptures: {
         0: {
@@ -61,8 +54,8 @@ writeFileSync('./dist/html.json', JSON.stringify({
       ],
     },
     {
-      begin: '(\\[)([\\w\\.]+)(\\])(?==)',
-      end: '(?=\\s*+[^=\\s])',
+      begin: /(\[)([\w\.]+)(\])(?==)/,
+      end: /(?=\s*[^=\s])/,
       name: 'meta.attribute.input.html',
       beginCaptures: {
         1: {
@@ -82,8 +75,8 @@ writeFileSync('./dist/html.json', JSON.stringify({
       ],
     },
     {
-      begin: '(\\[?)(\\()(\\w+)(\\))(\\]?)(?==)',
-      end: '(?=\\s*+[^=\\s])',
+      begin: /(\[?)(\()(\w+)(\))(\]?)(?==)/,
+      end: /(?=\s*[^=\s])/,
       name: 'meta.attribute.output.html',
       beginCaptures: {
         1: {
@@ -109,8 +102,8 @@ writeFileSync('./dist/html.json', JSON.stringify({
       ],
     },
     {
-      begin: '(\\*)(\\w+)',
-      end: '(?=\\s*+[^=\\s])',
+      begin: /(\*)(\w+)(?==)/,
+      end: /(?=\s*[^=\s])/,
       name: 'meta.attribute.control.html',
       beginCaptures: {
         1: {

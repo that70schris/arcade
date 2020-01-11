@@ -1,122 +1,21 @@
-.comment,
-.punctuation.definition.string,
-.punctuation.definition.tag,
-.punctuation.definition.template-expression,
-.punctuation.definition.type,
-.punctuation.definition.typeparameters,
 .punctuation.support,
 .punctuation.terminator {
+  content: url(/assets/icons/check.svg);
   foreground: #777;
-}
-
-.constant.character,
-.constant.other.placeholder,
-.keyword.control,
-.keyword.other.unit,
-.storage.modifier,
-.support.type.object.module {
-  foreground: #aaa;
-
-  /deep/ asdf {
-  }
 
   ::ng-deep asdf .fdsfsdf {
     &:after {
       content: attr(data) ': ';
-      content: url(/assets/icons/check.svg);
-      content: url(assets/icons/check.svg);
-      content: url(./assets/icons/check.svg);
-      content: url(../assets/icons/check.svg);
     }
   }
 }
 
 a {
-}
+  content: url(/assets/icons/check.svg);
 
-.entity.name.context,
-.keyword.operator,
-.punctuation.accessor,
-.punctuation.definition.section,
-.punctuation.separator,
-.meta.block,
-.meta.brace,
-.meta.function,
-.meta.parameters,
-.meta.scope.function-call {
-  foreground: #eee;
-}
-
-.case-clause keyword.control.switch,
-.keyword.operator.expression,
-.keyword.operator.new,
-.keyword.control.as,
-.storage {
-  foreground: #a8f;
-}
-
-.constant.language.merge.yaml,
-.keyword.control.conditional,
-.keyword.control.flow,
-.keyword.control.include,
-.keyword.control.loop,
-.keyword.control.switch,
-.keyword.control.trycatch,
-.keyword.other.debugger,
-.meta.attribute.control .entity.other.attribute-name,
-.punctuation.definition.anchor,
-.hello {
-  foreground: #eaf;
-}
-
-.constant,
-.support.constant,
-.variable.language.this {
-  foreground: #37c;
-}
-
-.entity.name.tag.reference,
-.entity.name.type.anchor,
-.meta.attribute.input .entity.other.attribute-name,
-.support.variable,
-.variable {
-  foreground: #7be;
-}
-
-.entity.name.function,
-.keyword.other.special-method,
-.meta.attribute.output .entity.other.attribute-name,
-.meta.function,
-.meta.function-call,
-.support.function {
-  foreground: #9ef;
-}
-
-.entity.name,
-.entity.other.inherited-class,
-.meta.type,
-.support.class,
-.support.constant.math,
-.support.type,
-.source.css .entity.other.attribute-name {
-  foreground: #ec7;
-}
-
-.entity.name.tag.yaml,
-.entity.other.attribute-name,
-.keyword.directive,
-.meta.object-literal.key,
-.meta.property-name,
-.support.type.property-name,
-.support.type.map.key {
-  foreground: #b97;
-}
-
-.string,
-.text.html {
-  foreground: #7e7;
-}
-
-.constant.character.escape {
-  foreground: #ef7;
+  @media (min-width: 20px) {
+    /deep/ asdf {
+      cursor: pointer;
+    }
+  }
 }
