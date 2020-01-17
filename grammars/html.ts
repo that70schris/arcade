@@ -56,8 +56,8 @@ writeFileSync(
         ],
       },
       {
-        begin: /(\[)([\w\.]+)(\])(?==)/,
-        end: '(?=s*+[^=s])',
+        begin: /(\[)([\w\.]*)(\])(?==)/,
+        end: '(?=\\s*+[^=\\s])',
         name: 'meta.attribute.input.html',
         beginCaptures: {
           1: {
@@ -77,8 +77,8 @@ writeFileSync(
         ],
       },
       {
-        begin: /(\[?)(\()(\w+)(\))(\]?)(?==)/,
-        end: '(?=s*+[^=s])',
+        begin: /(\[?)(\()(\w*)(\))(\]?)(?==)/,
+        end: '(?=\\s*+[^=\\s])',
         name: 'meta.attribute.output.html',
         beginCaptures: {
           1: {
@@ -104,8 +104,8 @@ writeFileSync(
         ],
       },
       {
-        begin: /(\*)(\w+)/,
-        end: '(?=s*+[^=s])',
+        begin: /(\*)(\w*)/,
+        end: '(?=\\s*+[^=\\s])',
         name: 'meta.attribute.control.html',
         beginCaptures: {
           1: {

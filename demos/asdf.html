@@ -1,40 +1,21 @@
 <mat-expansion-panel
   [expanded]="status.open || false"
   (opened)="open()"
+  [(ngModel)]="hello"
   [asdf]="asdf"
 >
-  <mat-expansion-panel-header>
-    <span class="nowrap">Loan {{ loan.number }}</span>
-    <mat-progress-bar
-      *ngIf="loan.pending"
-      mode="indeterminate"
-    ></mat-progress-bar>
-    <span class="nowrap">{{ status?.name }}</span>
-  </mat-expansion-panel-header>
-  hello
   <div *ngIf="asdf" class="flex" *ngIf>
     <table>
       <caption>
         Application
       </caption>
       <tbody>
-        <tr>
-          <th>Amount</th>
-          <td>{{ loan.application.amount | dollar }}</td>
-        </tr>
-        <tr>
-          <th>Term</th>
-          <td>{{ loan.application.term }} months</td>
-        </tr>
-        <tr>
-          <th>Purpose</th>
-          <td>{{ loan.application.purpose }}</td>
-        </tr>
-        <tr>
-          <th>Source of Income</th>
-          <td>{{ loan.application.income }}</td>
-        </tr>
-        <tr>
+        <tr
+          [class.green]="
+            loan.application.dob &&
+            loan.application.dob == user.credit.report?.DOB
+          "
+        >
           <th>Optional Details</th>
           <td>
             {{
@@ -54,23 +35,6 @@
           <th>SSN</th>
           <td>{{ loan.application.ssn_mask | ssn }}</td>
         </tr> -->
-        <tr
-          [class.green]="
-            loan.application.dob &&
-            loan.application.dob == user.credit.report?.DOB
-          "
-        >
-          <th>DOB</th>
-          <td>{{ loan.application.dob | date }}</td>
-        </tr>
-        <tr>
-          <th>Consent</th>
-          <td>
-            <mat-icon class="green" *ngIf="loan.application.authorized">
-              done
-            </mat-icon>
-          </td>
-        </tr>
       </tbody>
     </table>
 
