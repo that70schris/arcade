@@ -106,19 +106,20 @@ $key: #b97;
       .text & {
         color: $key;
       }
+    }
 
-      @at-root .meta.attribute {
-        &.control #{$this} {
-          color: $control;
-        }
+    &.ng-binding-name {
+      &.template {
+        color: $control;
+      }
 
-        &.input #{$this} {
-          color: $variable;
-        }
+      &.property {
+        color: $variable;
+      }
 
-        &.output #{$this} {
-          color: $function;
-        }
+      &.event,
+      &.two-way {
+        color: $function;
       }
     }
   }
