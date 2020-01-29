@@ -14,7 +14,7 @@ writeFileSync('./dist/css.json', JSON.stringify({
       },
     },
     {
-      begin: /(?<=\/|::)((?:ng-)?deep)\/?/,
+      begin: /(?<=[/]|::)((?:ng-)?deep)[/]?/,
       end: /{/,
       beginCaptures: {
         1: {
@@ -26,8 +26,8 @@ writeFileSync('./dist/css.json', JSON.stringify({
       }],
     },
     {
-      begin: /(?<=url)\(/,
-      end: /\)/,
+      begin: /(?<=url)[(]/,
+      end: /[)]/,
       beginCaptures: {
         1: {
           name: 'string',

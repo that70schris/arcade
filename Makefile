@@ -9,7 +9,6 @@ css:
 
 injections:
 	npx ts-node ./grammars/nginx.ts
-	npx ts-node ./grammars/html.ts
 	npx ts-node ./grammars/css.ts
 
 tokens:

@@ -141,11 +141,18 @@ $key: #b97;
     color: $support;
 
     &.conditional,
+    &.else,
+    &.elseif,
+    &.endif,
+    &.endwhile,
     &.flow,
+    &.for,
+    &.if,
     &.include,
     &.loop,
     &.switch,
-    &.trycatch {
+    &.trycatch,
+    &.while {
       color: $control;
 
       .case-clause & {
@@ -245,6 +252,7 @@ $key: #b97;
     }
   }
 
+  &.section,
   &.support,
   &.terminator {
     color: $comment;

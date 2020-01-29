@@ -11,13 +11,6 @@
     "grammars": [
       {
         "injectTo": [
-          "text.html"
-        ],
-        "path": "./dist/html.json",
-        "scopeName": "injection.html"
-      },
-      {
-        "injectTo": [
           "source.css"
         ],
         "path": "./dist/css.json",
@@ -42,21 +35,21 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.31",
-    "@types/node": "13.1.8",
+    "@types/node": "13.5.3",
     "@types/plist": "3.0.2",
-    "@typescript-eslint/eslint-plugin": "2.17.0",
-    "@typescript-eslint/parser": "2.17.0",
+    "@typescript-eslint/eslint-plugin": "2.18.0",
+    "@typescript-eslint/parser": "2.18.0",
     "css": "2.2.4",
     "eslint": "6.8.0",
-    "husky": "4.2.0",
-    "lint-staged": "10.0.2",
+    "husky": "4.2.1",
+    "lint-staged": "10.0.6",
     "plist": "3.0.1",
     "prettier": "1.19.1",
     "sass": "1.25.0",
     "stylelint": "13.0.0",
     "stylelint-order": "4.0.0",
     "stylelint-prettier": "1.1.2",
-    "stylelint-scss": "3.13.0",
+    "stylelint-scss": "3.14.2",
     "ts-node": "8.6.2",
     "typescript": "3.7.5",
     "vsce": "1.71.0"
@@ -71,5 +64,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.12.2"
+  "version": "0.12.10"
 }
