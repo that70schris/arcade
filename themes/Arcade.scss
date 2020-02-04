@@ -79,8 +79,6 @@ $key: #b97;
     }
 
     &.attribute-name {
-      $this: &;
-
       &.attribute {
         color: $key;
       }
@@ -110,16 +108,22 @@ $key: #b97;
 
     &.ng-binding-name {
       &.template {
-        color: $control;
+        .entity {
+          color: $control;
+        }
       }
 
       &.property {
-        color: $variable;
+        .entity {
+          color: $variable;
+        }
       }
 
       &.event,
       &.two-way {
-        color: $function;
+        .entity {
+          color: $function;
+        }
       }
     }
   }
