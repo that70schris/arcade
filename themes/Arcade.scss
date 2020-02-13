@@ -140,6 +140,12 @@ $key: #b97;
     .source.css & {
       color: $storage;
     }
+
+    &.import,
+    &.export,
+    &.from {
+      color: $support;
+    }
   }
 
   &.directive {
@@ -241,6 +247,10 @@ $key: #b97;
   &.support,
   &.terminator {
     color: $comment;
+
+    &.property-list {
+      color: $puncuation;
+    }
   }
 }
 
