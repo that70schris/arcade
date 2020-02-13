@@ -165,7 +165,10 @@ $key: #b97;
   &.operator {
     color: $puncuation;
 
-    &.expression,
+    &.expression {
+      color: $control;
+    }
+
     &.new {
       color: $storage;
     }
