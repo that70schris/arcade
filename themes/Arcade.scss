@@ -139,12 +139,6 @@ $key: #b97;
     .case-clause & {
       color: $storage;
     }
-
-    &.import,
-    &.export,
-    &.from {
-      color: $support;
-    }
   }
 
   &.directive {
@@ -318,4 +312,11 @@ $key: #b97;
   &.language {
     color: $constant;
   }
+}
+
+.include,
+.import,
+.export,
+.from {
+  color: $support;
 }
