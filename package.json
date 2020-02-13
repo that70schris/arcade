@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "2.19.2",
     "css": "2.2.4",
     "eslint": "6.8.0",
-    "husky": "4.2.1",
+    "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "plist": "3.0.1",
     "prettier": "1.19.1",
@@ -65,5 +65,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.13.13"
+  "version": "0.13.17"
 }

@@ -136,8 +136,7 @@ $key: #b97;
     color: $control;
 
     &.as,
-    .case-clause &,
-    .source.css & {
+    .case-clause & {
       color: $storage;
     }
 
@@ -198,7 +197,6 @@ $key: #b97;
   }
 
   &.block,
-  &.function,
   &.parameters {
     color: $storage;
   }
@@ -248,6 +246,7 @@ $key: #b97;
   &.terminator {
     color: $comment;
 
+    &.function,
     &.property-list {
       color: $puncuation;
     }
