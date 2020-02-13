@@ -132,39 +132,11 @@ $key: #b97;
 .keyword {
   color: $support;
 
-  &.operator {
-    color: $puncuation;
-
-    &.expression,
-    &.new {
-      color: $storage;
-    }
-  }
-
   &.control {
-    color: $support;
-
-    &.conditional,
-    &.else,
-    &.elseif,
-    &.endif,
-    &.endwhile,
-    &.flow,
-    &.for,
-    &.if,
-    &.include,
-    &.loop,
-    &.switch,
-    &.trycatch,
-    &.while {
-      color: $control;
-
-      .case-clause & {
-        color: $storage;
-      }
-    }
+    color: $control;
 
     &.as,
+    .case-clause &,
     .source.css & {
       color: $storage;
     }
@@ -172,6 +144,15 @@ $key: #b97;
 
   &.directive {
     color: $key;
+  }
+
+  &.operator {
+    color: $puncuation;
+
+    &.expression,
+    &.new {
+      color: $storage;
+    }
   }
 
   &.other {

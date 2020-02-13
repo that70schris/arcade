@@ -35,11 +35,11 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.31",
-    "@types/node": "13.7.0",
+    "@types/node": "13.7.1",
     "@types/plist": "3.0.2",
     "@typescript-eslint/eslint-plugin": "2.19.2",
     "@typescript-eslint/experimental-utils": "2.19.2",
-    "@typescript-eslint/parser": "2.19.1",
+    "@typescript-eslint/parser": "2.19.2",
     "css": "2.2.4",
     "eslint": "6.8.0",
     "husky": "4.2.1",
