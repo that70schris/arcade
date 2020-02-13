@@ -139,6 +139,23 @@ $key: #b97;
     .case-clause & {
       color: $storage;
     }
+
+    &.\-,
+    &.\@,
+    &.-\@,
+    &.import,
+    &.export,
+    &.from {
+      color: $support;
+    }
+
+    &.at-rule {
+      color: $support;
+
+      &.media {
+        color: $control;
+      }
+    }
   }
 
   &.directive {
@@ -271,10 +288,6 @@ $key: #b97;
     &.mathematical-symbols {
       color: $puncuation;
     }
-
-    &.property-value {
-      color: $support;
-    }
   }
 
   &.class,
@@ -312,11 +325,10 @@ $key: #b97;
   &.language {
     color: $constant;
   }
-}
 
-.include,
-.import,
-.export,
-.from {
-  color: $support;
+  &.parameter {
+    &.url {
+      color: $string;
+    }
+  }
 }

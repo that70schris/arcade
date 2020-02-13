@@ -1,9 +1,10 @@
 .punctuation.support,
-.punctuation.terminator {
+.punctuation.terminator cursor {
   content: url(/assets/icons/check.svg);
+  cursor: pointer;
   foreground: #777;
 
-  ::ng-deep asdf .fdsfsdf {
+  ::ng-deep content .fdsfsdf {
     &:after {
       content: attr(data) ': ';
     }
@@ -14,7 +15,7 @@ a {
   content: url(/assets/icons/check.svg);
 
   @media (min-width: 20px) {
-    /deep/ asdf {
+    /deep/ content {
       cursor: pointer;
     }
   }

@@ -7,30 +7,17 @@ writeFileSync('./dist/css.json', JSON.stringify({
   patterns: [
     {
       match: /(cursor|content)(?=:)/,
+      name: 'meta.property-name',
+    },
+    {
+      match: /([/]|::)((?:ng-)?deep)([/])?/,
+      name: 'anchor',
       captures: {
         1: {
-          name: 'meta.property-name',
+          name: 'punctuation',
         },
-      },
-    },
-    {
-      begin: /(?<=[/]|::)((?:ng-)?deep)[/]?/,
-      end: /{/,
-      beginCaptures: {
-        1: {
-          name: 'anchor',
-        },
-      },
-      patterns: [{
-        include: 'source.css',
-      }],
-    },
-    {
-      begin: /(?<=url)[(]/,
-      end: /[)]/,
-      beginCaptures: {
-        1: {
-          name: 'string',
+        3: {
+          name: 'punctuation',
         },
       },
     },

@@ -6,7 +6,7 @@ writeFileSync('./dist/Arcade.tokens', build({
   settings: parse(readFileSync('./dist/Arcade.css').toString())
   .stylesheet.rules.map((rule: Rule) => {
     return {
-      scope: rule.selectors.join(', ').replace(/(^|\s)\./g, '$1'),
+      scope: rule.selectors.join(', ').replace(/(^|\s)\./g, '$1').replace(/\\/g, ''),
       settings: rule.declarations.reduce((result, declaration: Declaration) => {
         return Object.assign(result, {
           [(() => {
