@@ -167,6 +167,10 @@ $key: #b97;
 
     &.expression {
       color: $control;
+
+      &.import {
+        color: $support;
+      }
     }
 
     &.new {
