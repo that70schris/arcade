@@ -37,9 +37,9 @@
     "@types/css": "0.0.31",
     "@types/node": "13.9.0",
     "@types/plist": "3.0.2",
-    "@typescript-eslint/eslint-plugin": "2.22.0",
-    "@typescript-eslint/experimental-utils": "2.22.0",
-    "@typescript-eslint/parser": "2.22.0",
+    "@typescript-eslint/eslint-plugin": "2.23.0",
+    "@typescript-eslint/experimental-utils": "2.23.0",
+    "@typescript-eslint/parser": "2.23.0",
     "css": "2.2.4",
     "eslint": "6.8.0",
     "husky": "4.2.3",
@@ -47,7 +47,7 @@
     "plist": "3.0.1",
     "prettier": "1.19.1",
     "sass": "1.26.2",
-    "stylelint": "13.2.0",
+    "stylelint": "13.2.1",
     "stylelint-order": "4.0.0",
     "stylelint-prettier": "1.1.2",
     "stylelint-scss": "3.14.2",
@@ -65,5 +65,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.14.1"
+  "version": "0.14.2"
 }
