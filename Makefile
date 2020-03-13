@@ -2,7 +2,6 @@ _:
 	@make css
 	@make injections
 	@make tokens
-	@make patch
 
 css:
 	npx sass themes:dist --no-source-map
@@ -13,7 +12,6 @@ injections:
 
 tokens:
 	npx ts-node ./tokens.ts
-	cp ./themes/*.json ./dist
 
 major minor patch:
 	@npx vsce publish $@

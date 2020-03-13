@@ -28,15 +28,8 @@
       {
         "id": "arcade",
         "label": "🕹 Arcade",
-        "path": "./dist/Arcade.color-theme.json",
+        "path": "./themes/Arcade.color-theme.json",
         "uiTheme": "vs-dark"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "arcade",
-        "label": "🕹 Arcade",
-        "path": "./dist/Arcade.icon-theme.json"
       }
     ]
   },
@@ -73,5 +66,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.14.8"
+  "version": "0.14.15"
 }
