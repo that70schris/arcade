@@ -36,7 +36,7 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.31",
-    "@types/node": "13.11.0",
+    "@types/node": "13.11.1",
     "@types/plist": "3.0.2",
     "@typescript-eslint/eslint-plugin": "2.27.0",
     "@typescript-eslint/experimental-utils": "2.27.0",
@@ -66,5 +66,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.16.8"
+  "version": "0.16.9"
 }
