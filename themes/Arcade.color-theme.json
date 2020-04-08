@@ -61,6 +61,7 @@
     "tab.border": "#0000"
   },
   "name": "Arcade",
+  "semanticHighlighting": true,
   "tokenColors": "../dist/Arcade.tokens",
   "type": "dark"
 }
