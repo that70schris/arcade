@@ -47,7 +47,7 @@
     "lint-staged": "10.1.7",
     "plist": "3.0.1",
     "prettier": "2.0.5",
-    "sass": "1.26.3",
+    "sass": "1.26.5",
     "stylelint": "13.3.3",
     "stylelint-order": "4.0.0",
     "stylelint-prettier": "1.1.2",
@@ -66,5 +66,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.17.11"
+  "version": "0.17.12"
 }
