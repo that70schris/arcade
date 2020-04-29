@@ -64,7 +64,6 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "*.async": "#eaf",
-    "*.static": "#ec7"
   },
   "tokenColors": "../dist/Arcade.tokens",
   "type": "dark"
