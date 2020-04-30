@@ -44,7 +44,7 @@
     "css": "2.2.4",
     "eslint": "6.8.0",
     "husky": "4.2.5",
-    "lint-staged": "10.2.0",
+    "lint-staged": "10.2.1",
     "plist": "3.0.1",
     "prettier": "2.0.5",
     "sass": "1.26.5",
@@ -66,5 +66,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.17.14"
+  "version": "0.17.15"
 }
