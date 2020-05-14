@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
+    "target": "esNext",
     "typeRoots": [
       "node_modules/@types",
       "grammars"

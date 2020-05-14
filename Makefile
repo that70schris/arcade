@@ -2,6 +2,7 @@ _:
 	@make css
 	@make injections
 	@make tokens
+	@cp README.md dist
 
 css:
 	npx sass themes:dist --no-source-map
