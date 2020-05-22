@@ -36,7 +36,7 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.31",
-    "@types/node": "14.0.4",
+    "@types/node": "14.0.5",
     "@types/plist": "3.0.2",
     "@typescript-eslint/eslint-plugin": "3.0.0",
     "@typescript-eslint/experimental-utils": "3.0.0",
@@ -44,7 +44,7 @@
     "css": "2.2.4",
     "eslint": "7.0.0",
     "husky": "4.2.5",
-    "lint-staged": "10.2.4",
+    "lint-staged": "10.2.6",
     "plist": "3.0.1",
     "prettier": "2.0.5",
     "sass": "1.26.5",
@@ -70,5 +70,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.18.7"
+  "version": "0.18.8"
 }
