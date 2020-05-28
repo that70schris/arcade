@@ -58,7 +58,7 @@
     "symbolIcon.unitForeground": "#aaa",
     "symbolIcon.variableForeground": "#7be",
     "tab.activeBackground": "#111",
-    "tab.border": "#0000"
+    "tab.border": "#0000",
   },
   "name": "Arcade",
   "semanticHighlighting": true,
