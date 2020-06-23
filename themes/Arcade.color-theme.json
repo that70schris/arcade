@@ -37,8 +37,8 @@
     "list.hoverBackground": "#333",
     "list.warningForeground": "#ef7",
     "menu.selectionBackground": "#333",
-    "panelSection.dropBackground": "#fff1",
     "panel.background": "#111",
+    "panelSection.dropBackground": "#fff1",
     "panelSectionHeader.background": "#222",
     "scrollbar.shadow": "#0000",
     "selection.background": "#fff4",
@@ -85,7 +85,9 @@
   "name": "Arcade",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "*.async": "#eaf"
+    "*.async": "#eaf",
+    "label": "#aaa",
+    "parameter": "#eee"
   },
   "tokenColors": "../dist/Arcade.tokens",
   "type": "dark"
