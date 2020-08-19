@@ -22,7 +22,7 @@
     "editorLightBulbAutoFix.foreground": "#7f8",
     "editorMarkerNavigationWarning.background": "#eee",
     "editorOverviewRuler.warningForeground": "#eee",
-    "editorRuler.foreground": "#444",
+    "editorRuler.foreground": "#444a",
     "editorSuggestWidget.background": "#222",
     "editorSuggestWidget.selectedBackground": "#444",
     "editorWarning.foreground": "#ccc",
@@ -68,6 +68,7 @@
     "symbolIcon.nullForeground": "#37c",
     "symbolIcon.numberForeground": "#37c",
     "symbolIcon.objectForeground": "#eee",
+
     "symbolIcon.operatorForeground": "#eee",
     "symbolIcon.packageForeground": "#7be",
     "symbolIcon.propertyForeground": "#7be",
