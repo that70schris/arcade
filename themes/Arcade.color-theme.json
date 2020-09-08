@@ -68,7 +68,6 @@
     "symbolIcon.nullForeground": "#37c",
     "symbolIcon.numberForeground": "#37c",
     "symbolIcon.objectForeground": "#eee",
-
     "symbolIcon.operatorForeground": "#eee",
     "symbolIcon.packageForeground": "#7be",
     "symbolIcon.propertyForeground": "#7be",
@@ -88,7 +87,7 @@
   "semanticTokenColors": {
     "*.async": "#eaf",
     "label": "#aaa",
-    "parameter": "#eee"
+    "parameter": "#7be"
   },
   "tokenColors": "../dist/Arcade.tokens",
   "type": "dark"

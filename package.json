@@ -36,19 +36,19 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.31",
-    "@types/node": "14.6.4",
+    "@types/node": "14.10.3",
     "@types/plist": "3.0.2",
-    "@typescript-eslint/eslint-plugin": "4.0.1",
-    "@typescript-eslint/experimental-utils": "4.0.1",
-    "@typescript-eslint/parser": "4.0.1",
+    "@typescript-eslint/eslint-plugin": "4.1.1",
+    "@typescript-eslint/experimental-utils": "4.1.1",
+    "@typescript-eslint/parser": "4.1.1",
     "css": "3.0.0",
-    "eslint": "7.8.1",
-    "husky": "4.2.5",
-    "lint-staged": "10.3.0",
+    "eslint": "7.9.0",
+    "husky": "4.3.0",
+    "lint-staged": "10.4.0",
     "plist": "3.0.1",
-    "prettier": "2.1.1",
+    "prettier": "2.1.2",
     "sass": "1.26.10",
-    "stylelint": "13.7.0",
+    "stylelint": "13.7.1",
     "stylelint-order": "4.1.0",
     "stylelint-prettier": "1.1.2",
     "stylelint-scss": "3.18.0",
@@ -70,5 +70,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "0.21.29"
+  "version": "0.21.35"
 }
