@@ -5,7 +5,6 @@
     "editor.background": "#141414",
     "editor.findMatchBackground": "#888",
     "editor.findMatchHighlightBackground": "#444",
-    "editor.foreground": "#eee",
     "editor.inactiveSelectionBackground": "#3337",
     "editor.lineHighlightBackground": "#ddd2",
     "editor.selectionBackground": "#444",
@@ -30,6 +29,7 @@
     "editorWidget.border": "#0000",
     "extensionButton.prominentBackground": "#7f87",
     "focusBorder": "#7f8",
+    "foreground": "#eee",
     "input.background": "#141414",
     "inputOption.activeBackground": "#777",
     "list.activeSelectionBackground": "#444",
@@ -80,6 +80,7 @@
     "symbolIcon.variableForeground": "#7be",
     "tab.activeBackground": "#141414",
     "tab.border": "#0000",
+    "tab.inactiveBackground": "#2d2d2d",
     "tree.indentGuidesStroke": "#777"
   },
   "name": "Arcade",

@@ -1,4 +1,4 @@
-parser: '@typescript-eslint/parser'
+parser: "@typescript-eslint/parser"
 parserOptions:
   sourceType: module
 
@@ -7,7 +7,7 @@ env:
   es6: true
 
 plugins:
-  - '@typescript-eslint'
+  - "@typescript-eslint"
 
 rules:
   array-element-newline: [1, consistent]
@@ -134,11 +134,9 @@ rules:
   wrap-iife: [1, inside]
   yoda: 1
 
-  '@typescript-eslint/ban-ts-ignore': 2
-  '@typescript-eslint/type-annotation-spacing': 1
-  '@typescript-eslint/class-name-casing': 1
-  '@typescript-eslint/no-empty-interface': 1
-  '@typescript-eslint/consistent-type-definitions': [1, interface]
+  "@typescript-eslint/type-annotation-spacing": 1
+  "@typescript-eslint/no-empty-interface": 1
+  "@typescript-eslint/consistent-type-definitions": [1, interface]
   # callable-types: true
   # label-position: true
   # member-access: false
