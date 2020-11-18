@@ -1,57 +1,44 @@
-$string: #3a7;
-$comment: #888;
-$support: #555;
-$punctuation: #111;
-$storage: #409;
-$control: #a7f;
-$constant: #03f;
-$variable: #06f;
-$function: #09f;
-$type: #cb4;
-$pseudo: #e97;
-$key: #a75;
-
 .anchor {
-  color: $control;
+  color: control;
 }
 
 .comment {
-  color: $comment;
+  color: comment;
 }
 
 .constant {
-  color: $constant;
+  color: constant;
 
   &.character {
     &.escape {
-      color: $comment;
+      color: comment;
     }
   }
 
   &.language {
     &.merge {
-      color: $control;
+      color: control;
     }
   }
 }
 
 .entity {
-  color: $type;
+  color: type;
 
   &.name {
     &.function {
-      color: $function;
+      color: function;
     }
 
     &.type {
       &.anchor {
-        color: $variable;
+        color: variable;
       }
     }
 
     &.tag {
       &.reference {
-        color: $variable;
+        color: variable;
       }
 
       // &.wildcard {
@@ -60,37 +47,37 @@ $key: #a75;
     }
 
     &.context {
-      color: $punctuation;
+      color: foreground;
     }
 
     .source.yaml &,
     .source.helm & {
-      color: $key;
+      color: key;
     }
   }
 
   &.other {
     &.document {
-      color: $punctuation;
+      color: foreground;
     }
 
     &.inherited-class {
-      color: $type;
+      color: type;
     }
 
     &.attribute-name {
       &.attribute {
-        color: $key;
+        color: key;
       }
 
       &.parent-selector-suffix {
         .punctuation {
-          color: $type;
+          color: type;
         }
       }
 
       .source.css & {
-        color: $type;
+        color: type;
 
         // &.pseudo-element {
         //   color: $pseudo;
@@ -102,27 +89,27 @@ $key: #a75;
       }
 
       .text & {
-        color: $key;
+        color: key;
       }
     }
 
     &.ng-binding-name {
       &.template {
         .entity {
-          color: $control;
+          color: control;
         }
       }
 
       &.property {
         .entity {
-          color: $variable;
+          color: variable;
         }
       }
 
       &.event,
       &.two-way {
         .entity {
-          color: $function;
+          color: function;
         }
       }
     }
@@ -130,14 +117,14 @@ $key: #a75;
 }
 
 .keyword {
-  color: $support;
+  color: support;
 
   &.control {
-    color: $control;
+    color: control;
 
     &.as,
     .case-clause & {
-      color: $storage;
+      color: storage;
     }
 
     &.\-,
@@ -146,49 +133,49 @@ $key: #a75;
     &.import,
     &.export,
     &.from {
-      color: $support;
+      color: support;
     }
 
     &.at-rule {
-      color: $support;
+      color: support;
 
       &.media {
-        color: $control;
+        color: control;
       }
     }
   }
 
   &.directive {
-    color: $key;
+    color: key;
   }
 
   &.operator {
-    color: $punctuation;
+    color: foreground;
 
     &.expression {
-      color: $control;
+      color: control;
 
       &.import {
-        color: $support;
+        color: support;
       }
     }
 
     &.new {
-      color: $storage;
+      color: storage;
     }
   }
 
   &.other {
     &.important {
-      color: $punctuation;
+      color: foreground;
     }
 
     &.debugger {
-      color: $control;
+      color: control;
     }
 
     &.special-method {
-      color: $function;
+      color: function;
     }
   }
 }
@@ -196,41 +183,41 @@ $key: #a75;
 .meta {
   &.attribute {
     &-selector {
-      color: $string;
+      color: string;
     }
   }
 
   &.property-name,
   &.object-literal.key {
-    color: $key;
+    color: key;
   }
 
   &.function,
   &.function-call {
-    color: $function;
+    color: function;
 
     .support {
-      color: $constant;
+      color: constant;
     }
   }
 
   &.block,
   &.parameters {
-    color: $storage;
+    color: storage;
   }
 
   &.brace {
-    color: $punctuation;
+    color: foreground;
   }
 
   &.type,
   &.selector {
-    color: $type;
+    color: type;
   }
 }
 
 .punctuation {
-  color: $punctuation;
+  color: foreground;
 
   &.definition {
     &.comment,
@@ -241,20 +228,20 @@ $key: #a75;
     &.type,
     &.typeparameters,
     &.variable {
-      color: $comment;
+      color: comment;
     }
 
     &.anchor {
-      color: $control;
+      color: control;
     }
 
     &.constant {
-      color: $support;
+      color: support;
     }
 
     .source.nginx & {
       &.variable {
-        color: $support;
+        color: support;
       }
     }
   }
@@ -262,80 +249,80 @@ $key: #a75;
   &.section,
   &.support,
   &.terminator {
-    color: $comment;
+    color: comment;
 
     &.function,
     &.property-list {
-      color: $punctuation;
+      color: foreground;
     }
   }
 }
 
 .storage {
-  color: $storage;
+  color: storage;
 
   &.modifier {
-    color: $support;
+    color: support;
   }
 }
 
 .string {
-  color: $string;
+  color: string;
 
   &.ipaddress {
-    color: $constant;
+    color: constant;
   }
 }
 
 .support {
   &.constant {
-    color: $constant;
+    color: constant;
 
     // &.math,
     &.mathematical-symbols {
-      color: $punctuation;
+      color: foreground;
     }
   }
 
   &.class,
   &.type {
-    color: $type;
+    color: type;
 
     &.property-name,
     &.map.key {
-      color: $key;
+      color: key;
     }
 
     &.object.module {
-      color: $support;
+      color: support;
     }
   }
 
   &.function {
-    color: $function;
+    color: function;
   }
 
   &.variable {
-    color: $variable;
+    color: variable;
   }
 }
 
 .text {
   &.html {
-    color: $punctuation;
+    color: foreground;
   }
 }
 
 .variable {
-  color: $variable;
+  color: variable;
 
   &.language {
-    color: $constant;
+    color: constant;
   }
 
   &.parameter {
     &.url {
-      color: $string;
+      color: string;
     }
   }
 

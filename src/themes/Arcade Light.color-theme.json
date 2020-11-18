@@ -1,0 +1,39 @@
+{
+  "_": {
+    "comment": "#aaa",
+    "constant": "#00f",
+    "control": "#a7f",
+    "foreground": "#333",
+    "function": "#39f",
+    "key": "#a75",
+    "pseudo": "#e97",
+    "storage": "#63b",
+    "string": "#3a7",
+    "support": "#777",
+    "type": "#cb0",
+    "variable": "#36f"
+  },
+  "colors": {
+    "editor.background": "#f1f1f1",
+    "editor.findMatchHighlightBackground": "#ccc",
+    "editor.lineHighlightBackground": "#ddd",
+    "editorCursor.foreground": "#000",
+    "editorGroup.border": "#bbb",
+    "editorGroupHeader.tabsBackground": "#ccc",
+    "editorLightBulb.foreground": "#fe0",
+    "editorLightBulbAutoFix.foreground": "#3a7",
+    "editorLineNumber.activeForeground": "#000",
+    "editorLineNumber.foreground": "#aaa",
+    "editorRuler.foreground": "#ccc",
+    "editorSuggestWidget.background": "#ddd",
+    "editorSuggestWidget.selectedBackground": "#bbb",
+    "editorWidget.background": "#bbb",
+    "input.background": "#eee",
+    "list.warningForeground": "#db0",
+    "panel.background": "#f1f1f1",
+    "scrollbarSlider.background": "#1111",
+    "sideBar.background": "#e4e4e4",
+    "tab.activeBackground": "#f1f1f1",
+    "tab.inactiveBackground": "#ddd"
+  }
+}

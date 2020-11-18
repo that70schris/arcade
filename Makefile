@@ -2,17 +2,18 @@ _:
 	@make css
 	@make injections
 	@make tokens
-	@cp README.md dist
 
 css:
-	npx sass themes:dist --no-source-map
+	npx sass ./src/themes:dist --no-source-map
 
 injections:
-	npx ts-node ./grammars/nginx.ts
-	npx ts-node ./grammars/css.ts
+	npx ts-node ./src/grammars/nginx.ts
+	npx ts-node ./src/grammars/css.ts
 
 tokens:
-	npx ts-node ./tokens.ts
+	npx ts-node ./src/themes/process 'Arcade'
+	npx ts-node ./src/themes/process 'Arcade Light'
 
 major minor patch:
+	@make
 	@npx vsce publish $@

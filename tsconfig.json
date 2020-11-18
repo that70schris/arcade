@@ -4,7 +4,7 @@
     "target": "esNext",
     "typeRoots": [
       "node_modules/@types",
-      "grammars"
+      "./src/grammars"
     ]
   }
 }
