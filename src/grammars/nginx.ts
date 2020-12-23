@@ -12,5 +12,12 @@ writeFileSync('./dist/nginx.json', JSON.stringify({
         name: 'punctuation',
       },
     },
+  }, {
+    match: /(default|return)\s+/,
+    captures: {
+      1: {
+        name: 'keyword.control',
+      },
+    },
   }],
 }));
