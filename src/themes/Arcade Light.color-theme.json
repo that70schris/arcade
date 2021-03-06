@@ -14,6 +14,10 @@
     "variable": "#36f"
   },
   "colors": {
+    "activityBar.activeBackground": "#e4e4e4",
+    "activityBar.activeBorder": "#0000",
+    "activityBar.background": "#ccc",
+    "activityBar.foreground": "#000",
     "editor.background": "#f1f1f1",
     "editor.findMatchHighlightBackground": "#ccc",
     "editor.lineHighlightBackground": "#ddd",
@@ -32,8 +36,8 @@
     "list.warningForeground": "#db0",
     "panel.background": "#f1f1f1",
     "scrollbarSlider.background": "#1111",
-    "statusBar.background": "#ddd",
     "sideBar.background": "#e4e4e4",
+    "statusBar.background": "#ddd",
     "tab.activeBackground": "#f1f1f1",
     "tab.inactiveBackground": "#ddd"
   }
