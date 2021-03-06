@@ -32,6 +32,7 @@
     "list.warningForeground": "#db0",
     "panel.background": "#f1f1f1",
     "scrollbarSlider.background": "#1111",
+    "statusBar.background": "#ddd",
     "sideBar.background": "#e4e4e4",
     "tab.activeBackground": "#f1f1f1",
     "tab.inactiveBackground": "#ddd"
