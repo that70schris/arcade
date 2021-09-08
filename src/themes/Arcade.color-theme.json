@@ -14,8 +14,8 @@
     "variable": "#7be"
   },
   "colors": {
-    "activityBar.activeBorder": "#0000",
     "activityBar.activeBackground": "#222",
+    "activityBar.activeBorder": "#0000",
     "activityBar.background": "#333",
     "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#37c",
@@ -27,6 +27,9 @@
     "editor.lineHighlightBackground": "#ddd2",
     "editor.selectionBackground": "#444",
     "editor.selectionHighlightBackground": "#333",
+    "editorBracketHighlight.foreground1": "#fd0",
+    "editorBracketHighlight.foreground2": "#f90",
+    "editorBracketHighlight.foreground3": "#f40",
     "editorCursor.foreground": "#fff",
     "editorGroup.border": "#444",
     "editorGroup.dropBackground": "#fff2",
