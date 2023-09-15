@@ -3,7 +3,7 @@ import './sugar';
 
 writeFileSync('./dist/css.json', JSON.stringify({
   injectionSelector: 'L:-comment',
-  scopeName: 'injection.css',
+  scopeName: 'css.injection',
   patterns: [
     {
       match: /(cursor|content)(?=:)/,

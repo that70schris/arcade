@@ -3,7 +3,7 @@ import './sugar';
 
 writeFileSync('./dist/nginx.json', JSON.stringify({
   injectionSelector: 'L:-comment',
-  scopeName: 'injection.nginx',
+  scopeName: 'nginx.injection',
   patterns: [{
     match: /(@)\w+/,
     name: 'anchor',
@@ -12,8 +12,5 @@ writeFileSync('./dist/nginx.json', JSON.stringify({
         name: 'punctuation',
       },
     },
-  // }, {
-  //   match: /(default|return)(?=\s+)/,
-  //   name: 'keyword.control',
   }],
 }));
