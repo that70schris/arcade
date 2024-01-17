@@ -66,6 +66,8 @@
     }
 
     &.attribute-name {
+      color: key;
+
       &.attribute {
         color: key;
       }
@@ -201,11 +203,6 @@
     }
   }
 
-  &.block,
-  &.parameters {
-    color: storage;
-  }
-
   &.brace {
     color: foreground;
   }
@@ -327,6 +324,6 @@
   }
 
   // .meta.object-literal.key & {
-  //   color: $key;
+  //   color: key;
   // }
 }
