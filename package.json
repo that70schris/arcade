@@ -42,24 +42,24 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.37",
-    "@types/node": "20.12.5",
-    "@typescript-eslint/eslint-plugin": "7.5.0",
+    "@types/node": "22.5.0",
+    "@typescript-eslint/eslint-plugin": "8.2.0",
     "@typescript-eslint/experimental-utils": "5.62.0",
-    "@typescript-eslint/parser": "7.5.0",
-    "commander": "12.0.0",
+    "@typescript-eslint/parser": "8.2.0",
+    "commander": "12.1.0",
     "css": "3.0.0",
-    "eslint": "9.0.0",
-    "husky": "9.0.11",
-    "lint-staged": "15.2.2",
-    "prettier": "3.2.5",
-    "sass": "1.74.1",
-    "stylelint": "16.3.1",
+    "eslint": "9.9.0",
+    "husky": "9.1.5",
+    "lint-staged": "15.2.9",
+    "prettier": "3.3.3",
+    "sass": "1.77.8",
+    "stylelint": "16.8.2",
     "stylelint-order": "6.0.4",
-    "stylelint-prettier": "5.0.0",
-    "stylelint-scss": "6.2.1",
+    "stylelint-prettier": "5.0.2",
+    "stylelint-scss": "6.5.0",
     "ts-node": "10.9.2",
-    "typescript": "5.4.4",
-    "vsce": "2.9.2"
+    "typescript": "5.5.4",
+    "vsce": "2.15.0"
   },
   "displayName": "🕹 Arcade",
   "engines": {
@@ -76,5 +76,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "1.4.17"
+  "version": "1.4.19"
 }
