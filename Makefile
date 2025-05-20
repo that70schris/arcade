@@ -7,12 +7,12 @@ css:
 	npx sass ./src/themes:dist --no-source-map
 
 injections:
-	npx ts-node ./src/grammars/nginx.ts
-	npx ts-node ./src/grammars/css.ts
+	npx tsx ./src/grammars/nginx.ts
+	npx tsx ./src/grammars/css.ts
 
 tokens:
-	npx ts-node ./src/themes/process 'Arcade'
-	npx ts-node ./src/themes/process 'Arcade Light'
+	npx tsx ./src/themes/process 'Arcade'
+	npx tsx ./src/themes/process 'Arcade Light'
 
 major minor patch:
 	@make
