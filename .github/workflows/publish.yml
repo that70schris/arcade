@@ -3,7 +3,9 @@ name: Publish
 on:
   push:
     branches:
-      - main
+      - major
+      - minor
+      - patch
 
 env:
   VSCE_PAT: ${{ secrets.VSCE_PAT }}
@@ -12,7 +14,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@main
 
       - name: Install dependencies
@@ -25,5 +27,7 @@ jobs:
         run: |
           git config --local user.name "that70chris"
           git config --local user.email "chris@bailey.mx"
-          git commit -am "version bump to ${{ github.sha }}"
-          git push
+          git commit -am "v$(npm pkg get version)"
+          git tag $(npm pkg get version)
+          git push -f origin HEAD:main
+          git push --tags

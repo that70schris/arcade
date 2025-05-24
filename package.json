@@ -39,26 +39,28 @@
       }
     ]
   },
-  "description": "Somewhere between neon and pastel",
   "dependencies": {
+    "@vscode/vsce": "3.4.2",
+    "commander": "14.0.0",
+    "css": "3.0.0",
+    "sass": "1.89.0",
+    "tsx": "4.19.4"
+  },
+  "description": "Somewhere between neon and pastel",
+  "devDependencies": {
     "@types/css": "0.0.38",
     "@types/node": "22.15.19",
     "@typescript-eslint/eslint-plugin": "8.32.1",
     "@typescript-eslint/experimental-utils": "5.62.0",
     "@typescript-eslint/parser": "8.32.1",
-    "@vscode/vsce": "3.4.2",
-    "commander": "14.0.0",
-    "css": "3.0.0",
     "eslint": "8.57.1",
     "husky": "9.1.7",
     "lint-staged": "16.0.0",
     "prettier": "3.5.3",
-    "sass": "1.89.0",
     "stylelint": "16.19.1",
     "stylelint-order": "7.0.0",
     "stylelint-prettier": "5.0.3",
     "stylelint-scss": "6.12.0",
-    "tsx": "4.19.4",
     "typescript": "5.8.3"
   },
   "displayName": "🕹 Arcade",
@@ -69,12 +71,12 @@
     "color": "#444",
     "theme": "dark"
   },
-  "name": "arcade",
   "icon": "src/game.png",
+  "name": "arcade",
   "publisher": "that70schris",
   "repository": {
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "1.4.32"
+  "version": "1.4.38"
 }
