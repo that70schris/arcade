@@ -25,9 +25,10 @@ jobs:
 
       - name: Check in Version
         run: |
+          version=$(cat package.json | jq -r .version)
           git config --local user.name "that70chris"
           git config --local user.email "chris@bailey.mx"
-          git commit -am "v$(npm pkg get version)"
-          git tag $(npm pkg get version)
+          git commit -am "v$version"
           git push -f origin HEAD:main
+          git tag $version
           git push --tags
