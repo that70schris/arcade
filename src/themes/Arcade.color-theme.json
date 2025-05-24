@@ -19,6 +19,7 @@
     "activityBar.background": "#333",
     "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#37c",
+    "activityBarTop.background": "#333",
     "dropdown.background": "#333",
     "editor.background": "#141414",
     "editor.findMatchBackground": "#888",

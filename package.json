@@ -2,7 +2,7 @@
   "author": {
     "email": "chris@bailey.mx",
     "name": "Chris Bailey",
-    "url": "https://bailey.codes"
+    "url": "https://github.com/that70schris"
   },
   "categories": [
     "Themes"
@@ -48,7 +48,7 @@
     "@typescript-eslint/parser": "8.32.1",
     "commander": "14.0.0",
     "css": "3.0.0",
-    "eslint": "9.27.0",
+    "eslint": "8.57.1",
     "husky": "9.1.7",
     "lint-staged": "16.0.0",
     "prettier": "3.5.3",
@@ -76,5 +76,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "1.4.19"
+  "version": "1.4.23"
 }
