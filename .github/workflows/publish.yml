@@ -1,0 +1,29 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@main
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the project
+        run: make patch
+
+      - name: Check in Version
+        run: |
+          git config --local user.name "that70chris"
+          git config --local user.email "chris@bailey.mx"
+          git commit -am "version bump to ${{ github.sha }}"
+          git push
