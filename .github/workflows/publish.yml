@@ -20,8 +20,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build the project
-        run: make ${{ github.ref_name }}
+      - name: Build the css
+        run: make css
+
+      - name: Build the injections
+        run: make injections
+
+      - name: Build the tokens
+        run: make tokens
+
+      - name: Publish to VSCE
+        run: npx vsce publish ${{ github.ref_name }}
 
       - name: Check in Version
         run: |
@@ -29,6 +38,7 @@ jobs:
           git config --local user.name "that70chris"
           git config --local user.email "chris@bailey.mx"
           git commit -am "v$version"
+
           git push -f origin :${{ github.ref_name }}
           git push -f origin HEAD:main
           git tag $version
