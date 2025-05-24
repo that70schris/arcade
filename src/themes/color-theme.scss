@@ -50,6 +50,7 @@
       color: foreground;
     }
 
+    .source.github-actions-workflow &,
     .source.yaml &,
     .source.helm & {
       color: key;

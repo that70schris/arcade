@@ -2,7 +2,7 @@
   "author": {
     "email": "chris@bailey.mx",
     "name": "Chris Bailey",
-    "url": "https://github.com/that70schris"
+    "url": "https://bailey.codes"
   },
   "categories": [
     "Themes"
@@ -46,6 +46,7 @@
     "@typescript-eslint/eslint-plugin": "8.32.1",
     "@typescript-eslint/experimental-utils": "5.62.0",
     "@typescript-eslint/parser": "8.32.1",
+    "@vscode/vsce": "3.4.2",
     "commander": "14.0.0",
     "css": "3.0.0",
     "eslint": "8.57.1",
@@ -58,8 +59,7 @@
     "stylelint-prettier": "5.0.3",
     "stylelint-scss": "6.12.0",
     "tsx": "4.19.4",
-    "typescript": "5.8.3",
-    "vsce": "2.15.0"
+    "typescript": "5.8.3"
   },
   "displayName": "🕹 Arcade",
   "engines": {
@@ -76,5 +76,5 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "1.4.23"
+  "version": "1.4.31"
 }
