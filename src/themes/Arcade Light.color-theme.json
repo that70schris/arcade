@@ -18,6 +18,8 @@
     "activityBar.activeBorder": "#0000",
     "activityBar.background": "#ccc",
     "activityBar.foreground": "#000",
+    "activityBarTop.activeBackground": "#e4e4e4",
+    "activityBarTop.activeBorder": "#0000",
     "activityBarTop.background": "#ccc",
     "editor.background": "#f1f1f1",
     "editor.findMatchHighlightBackground": "#0003",
