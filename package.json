@@ -77,5 +77,8 @@
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
   },
-  "version": "1.5.4"
+  "sponsor": {
+    "url": "https://github.com/sponsors/that70schris"
+  },
+  "version": "1.5.13"
 }

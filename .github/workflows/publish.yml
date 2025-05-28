@@ -17,8 +17,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@master
+        with:
+          version: latest
+
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build the css
         run: make css
@@ -30,7 +35,7 @@ jobs:
         run: make tokens
 
       - name: Publish to VSCE
-        run: npx vsce publish ${{ github.ref_name }}
+        run: npx vsce publish --no-dependencies ${{ github.ref_name }}
 
       - name: Check in Version
         run: |

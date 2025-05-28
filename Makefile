@@ -16,4 +16,4 @@ tokens:
 
 major minor patch:
 	@make
-	npx vsce publish $@
+	npx vsce publish --no-dependencies $@
