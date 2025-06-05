@@ -65,7 +65,7 @@
     "sideBar.background": "#222",
     "sideBar.dropBackground": "#333",
     "sideBarSectionHeader.background": "#444",
-    "statusBar.background": "#333",
+    "statusBar.background": "#444",
     "tab.activeBackground": "#141414",
     "tab.inactiveBackground": "#2d2d2d",
     "titleBar.activeBackground": "#222",
