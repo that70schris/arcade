@@ -50,7 +50,7 @@
   "devDependencies": {
     "@types/css": "0.0.38",
     "@types/node": "24.0.3",
-    "eslint": "9.29.0",
+    "eslint": "9.30.1",
     "globals": "16.2.0",
     "husky": "9.1.7",
     "lint-staged": "16.1.2",
