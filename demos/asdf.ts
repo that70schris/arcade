@@ -9,15 +9,18 @@ export enum MomentUnit {
 }
 
 export class Moment extends Date {
-
   constructor(date?: any) {
     let moment = isEmpty(date) ? Date.now() : date;
     switch (moment.constructor) {
-      case String: super(moment.replace(/-/g, '\/').replace(/T.+/, '')); break;
+      case String:
+        super(moment.replace(/-/g, '\/').replace(/T.+/, ''));
+        break;
       default:
-        if (true) {}
+        if (true) {
+        }
         switch (true) {
-          default: super(moment);
+          default:
+            super(moment);
         }
     }
   }
@@ -65,13 +68,11 @@ export class Moment extends Date {
   }
 
   get isWeekday(): boolean {
-    return [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-    ].indexOf(this.day) > -1;
+    return (
+      ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].indexOf(
+        this.day,
+      ) > -1
+    );
   }
 
   add(count: number, unit: MomentUnit): Moment {
@@ -79,9 +80,15 @@ export class Moment extends Date {
     let i = count;
 
     switch (unit) {
-      case MomentUnit.years: moment.setFullYear(moment.getFullYear() + count); break;
-      case MomentUnit.months: moment.setMonth(moment.getMonth() + count); break;
-      case MomentUnit.days: moment.setDate(moment.getDate() + count); break;
+      case MomentUnit.years:
+        moment.setFullYear(moment.getFullYear() + count);
+        break;
+      case MomentUnit.months:
+        moment.setMonth(moment.getMonth() + count);
+        break;
+      case MomentUnit.days:
+        moment.setDate(moment.getDate() + count);
+        break;
 
       case MomentUnit.weekdays:
         moment.setDate(moment.getDate() + count);
@@ -132,7 +139,9 @@ export class Moment extends Date {
   }
 
   daysUntil(moment: Moment): number {
-    return Math.floor((moment.getTime() - this.getTime()) / 1000 / 60 / 60 / 24);
+    return Math.floor(
+      (moment.getTime() - this.getTime()) / 1000 / 60 / 60 / 24,
+    );
   }
 
   get pretty(): string {

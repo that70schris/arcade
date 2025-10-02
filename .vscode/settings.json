@@ -1,5 +1,10 @@
 {
-  "files.insertFinalNewline": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "github-actions.workflows.pinned.workflows": [
     ".github/workflows/publish.yml"
   ],
