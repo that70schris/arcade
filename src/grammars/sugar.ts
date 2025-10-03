@@ -1,6 +1,7 @@
 Object.defineProperty(
   RegExp.prototype,
-  'toJSON', {
+  'toJSON',
+  {
     value() {
       return this.toString().slice(1, -1);
     },

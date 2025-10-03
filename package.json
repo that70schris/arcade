@@ -51,12 +51,6 @@
     "@types/css": "0.0.38",
     "@types/node": "24.6.2",
     "husky": "9.1.7",
-    "lint-staged": "16.2.3",
-    "prettier": "3.6.2",
-    "stylelint": "16.24.0",
-    "stylelint-order": "7.0.0",
-    "stylelint-prettier": "5.0.3",
-    "stylelint-scss": "6.12.1",
     "typescript": "5.9.3"
   },
   "displayName": "🕹 Arcade",
@@ -73,6 +67,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/that70schris/arcade"
+  },
+  "scripts": {
+    "prepare": "husky"
   },
   "sponsor": {
     "url": "https://github.com/sponsors/that70schris"

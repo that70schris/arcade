@@ -1,2 +1,0 @@
-overrides: [{ files: '*.html', options: { parser: 'angular' } }]
-trailingComma: 'all'
