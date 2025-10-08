@@ -37,6 +37,7 @@
     "editorLineNumber.foreground": "#aaa",
     "editorRuler.foreground": "#ccc",
     "editorStickyScroll.background": "#f1f1f1aa",
+    "editorStickyScroll.shadow": "#f1f1f1aa",
     "editorStickyScrollGutter.background": "#f1f1f1aa",
     "editorSuggestWidget.background": "#ddd",
     "editorSuggestWidget.selectedBackground": "#bbb",
