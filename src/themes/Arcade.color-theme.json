@@ -47,6 +47,8 @@
     "editorMarkerNavigationWarning.background": "#eee",
     "editorOverviewRuler.warningForeground": "#eee",
     "editorRuler.foreground": "#444a",
+    "editorStickyScroll.background": "#141414aa",
+    "editorStickyScrollGutter.background": "#141414aa",
     "editorSuggestWidget.background": "#222",
     "editorSuggestWidget.selectedBackground": "#444",
     "editorWarning.foreground": "#ccc",
