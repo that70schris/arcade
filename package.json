@@ -49,7 +49,7 @@
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.38",
-    "@types/node": "24.6.2",
+    "@types/node": "24.10.0",
     "husky": "9.1.7",
     "typescript": "5.9.3"
   },
