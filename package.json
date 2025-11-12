@@ -40,16 +40,16 @@
     ]
   },
   "dependencies": {
-    "@vscode/vsce": "3.6.2",
-    "commander": "14.0.1",
+    "@vscode/vsce": "3.7.0",
+    "commander": "14.0.2",
     "css": "3.0.0",
-    "sass": "1.93.2",
+    "sass": "1.94.0",
     "tsx": "4.20.6"
   },
   "description": "Somewhere between neon and pastel",
   "devDependencies": {
     "@types/css": "0.0.38",
-    "@types/node": "24.6.2",
+    "@types/node": "24.10.1",
     "husky": "9.1.7",
     "typescript": "5.9.3"
   },
