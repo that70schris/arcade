@@ -40,7 +40,7 @@
     ]
   },
   "dependencies": {
-    "@vscode/vsce": "3.7.0",
+    "@vscode/vsce": "3.7.1",
     "commander": "14.0.2",
     "css": "3.0.0",
     "sass": "1.94.0",
