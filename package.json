@@ -43,7 +43,7 @@
     "@vscode/vsce": "3.7.0",
     "commander": "14.0.2",
     "css": "3.0.0",
-    "sass": "1.94.0",
+    "sass": "1.94.2",
     "tsx": "4.20.6"
   },
   "description": "Somewhere between neon and pastel",
