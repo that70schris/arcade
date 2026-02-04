@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
+    "module": "nodeNext",
+    "moduleResolution": "nodeNext",
+    "resolvePackageJsonImports": true,
     "target": "esNext",
     "typeRoots": [
       "node_modules/@types",
