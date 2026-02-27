@@ -35,7 +35,7 @@ jobs:
         run: make tokens
 
       - name: Publish to VSCE
-        run: make ${{ github.ref_name }}
+        run: npx vsce publish --no-dependencies ${{ github.ref_name }}
 
       - name: Check in Version
         run: |

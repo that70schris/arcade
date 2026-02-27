@@ -13,7 +13,3 @@ injections:
 tokens:
 	npx tsx ./src/themes/process 'Arcade'
 	npx tsx ./src/themes/process 'Arcade Light'
-
-major minor patch:
-	@make
-	npx vsce publish --no-dependencies $@
