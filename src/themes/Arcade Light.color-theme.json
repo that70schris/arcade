@@ -50,6 +50,22 @@
     "statusBar.background": "#bbb",
     "statusBar.foreground": "#000",
     "tab.activeBackground": "#f1f1f1",
-    "tab.inactiveBackground": "#ddd"
+    "tab.inactiveBackground": "#ddd",
+    "terminal.ansiBlack": "#111",
+    "terminal.ansiBlue": "#37c",
+    "terminal.ansiBrightBlack": "#444",
+    "terminal.ansiBrightBlue": "#00f",
+    "terminal.ansiBrightCyan": "#069",
+    "terminal.ansiBrightGreen": "#075",
+    "terminal.ansiBrightMagenta": "#63b",
+    "terminal.ansiBrightRed": "#f11",
+    "terminal.ansiBrightWhite": "#aaa",
+    "terminal.ansiBrightYellow": "#a90",
+    "terminal.ansiCyan": "#09a",
+    "terminal.ansiGreen": "#3a7",
+    "terminal.ansiMagenta": "#a7f",
+    "terminal.ansiRed": "#f04",
+    "terminal.ansiWhite": "#777",
+    "terminal.ansiYellow": "#cb3"
   }
 }
