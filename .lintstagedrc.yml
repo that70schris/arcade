@@ -1,5 +1,6 @@
-./**/*.html: prettier --write
-./**/*.{scss,css}: stylelint --fix
-./**/*.{yaml,yml}: prettier --write
+./**/*.jso*: prettier --write --ignore-path false
+./**/*.*ml: prettier --write --ignore-path false
+./**/*.{s[ac]ss,css}: stylelint --fix
 ./**/*.[cm][jt]s: eslint --fix
+./**/*.[jt]sx: eslint --fix
 ./**/*.[jt]s: eslint --fix
