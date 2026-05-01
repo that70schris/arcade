@@ -1,0 +1,10 @@
+alignComments: false
+arrayAutoCollapse: false
+indentEntries: true
+reorderKeys: true
+trailingComma: all
+singleQuote: true
+semi: false
+plugins:
+  - prettier-plugin-toml
+  - '@prettier/plugin-xml'
