@@ -1,5 +1,4 @@
 ./**/*.{s[ac]ss,css}: stylelint --fix
+./**/*.*[jt]{s,sx}: eslint --fix
 ./**/*.json*: prettier --write
 ./**/*.*ml: prettier --write
-./**/*.*[jt]s: eslint --fix
-./**/*.[jt]sx: eslint --fix
