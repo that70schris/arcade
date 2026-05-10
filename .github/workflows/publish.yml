@@ -41,7 +41,7 @@ jobs:
           pnpm vsce publish --no-dependencies ${{ github.ref_name }}
           git push --tags
 
-      - name: Check in Version
+      - name: Clean Up
         run: |
           git push -f origin :${{ github.ref_name }}
           git push -f origin HEAD:main
