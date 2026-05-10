@@ -51,6 +51,7 @@
     "@types/css": "latest",
     "@types/node": "latest",
     "husky": "latest",
+    "prettier": "latest",
     "typescript": "latest"
   },
   "displayName": "🕹 Arcade",
