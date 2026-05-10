@@ -39,12 +39,12 @@ jobs:
           git config --local user.name "that70chris"
           git config --local user.email "chris@bailey.mx"
 
-          npx vsce publish --no-dependencies ${{ github.ref_name }}
+          pnpm vsce publish --no-dependencies ${{ github.ref_name }}
 
       - name: Check in Version
         run: |
           version=$(cat package.json | jq -r .version)
-          git commit -am "$version"
+          git commit -am "$version" --allow-empty
 
           git push -f origin :${{ github.ref_name }}
           git push -f origin HEAD:main
