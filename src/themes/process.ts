@@ -8,13 +8,13 @@ import(`./${name}.color-theme.json`).then(async(theme) => {
     const colors = Object.assign({}, schema.colors, theme.colors)
     const semanticTokenColors = Object.assign({}, schema.semanticTokenColors, theme.semanticTokenColors)
     const palette = theme._ || {}
-    delete theme._
 
     return JSON.stringify(Object.assign({
       type: /light/i.test(name) ? 'light' : 'dark',
       semanticHighlighting: true,
       name: name,
     }, theme, {
+      _: undefined,
       colors: Object.keys(colors)
         .sort().reduce((result, key) => {
           return Object.assign(result, {
@@ -29,17 +29,19 @@ import(`./${name}.color-theme.json`).then(async(theme) => {
         }, {}),
       tokenColors: theme.tokenColors || (() => {
         return parse(readFileSync('./dist/color-theme.css').toString())
-          .stylesheet.rules.map((rule: Rule) => {
+          .stylesheet?.rules.map((rule: Rule) => {
             return {
-              scope: rule.selectors.join(', ').replace(/(^|\s)\./g, '$1').replace(/\\/g, ''),
-              settings: rule.declarations.reduce((result, declaration: Declaration) => {
+              scope: rule.selectors?.join(', ').replace(/(^|\s)\./g, '$1').replace(/\\/g, ''),
+              settings: rule.declarations?.reduce((result, declaration: Declaration) => {
                 return Object.assign(result, {
                   [(() => {
                     switch (declaration.property) {
                       case 'color': return 'foreground'
-                      default: declaration.property
+                      default:
+                        return declaration.property
+                          ?? ''
                     }
-                  })()]: palette[declaration.value],
+                  })()]: palette[declaration.value ?? ''],
                 })
               }, {}),
             }
