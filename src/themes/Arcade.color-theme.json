@@ -58,6 +58,7 @@
     "input.background": "#141414",
     "inputOption.activeBackground": "#777",
     "list.activeSelectionBackground": "#777",
+    "list.focusAndSelectionOutline": "#0000",
     "list.inactiveSelectionBackground": "#333",
     "list.hoverBackground": "#555",
     "list.warningForeground": "#ef7",
